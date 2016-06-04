@@ -2,6 +2,7 @@
 layout: default
 title: Links for Debug
 permalink: /links/
+category: debug
 ---
 
 {% for page in site.pages %}
