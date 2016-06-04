@@ -2,6 +2,7 @@
 title: Terms and Conditions
 layout: page
 permalink: terms-conditions/
+parent: true
 ---
 
 ## Age of Admittance

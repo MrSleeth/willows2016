@@ -2,6 +2,7 @@
 title: Children's Learning and Development
 layout: page
 permalink: learning-and-development/
+parent: true
 ---
 
 We practice the Montessori method of education to deliver the ["The Early Years Foundation Stage" framework](https://www.gov.uk/government/publications/early-years-foundation-stage-framework--2).   The Early Years Foundation Stage is based on four key themes and 16 commitments:

@@ -1,7 +1,8 @@
 ---
 title: Aims and Objectives
 layout: page
-permalink: /aims/
+permalink: aims/
+parent: true
 ---
 
 ## We aim

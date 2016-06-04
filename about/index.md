@@ -1,7 +1,8 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: about/
+parent: true
 ---
 
 ## Our Session Times and Fees

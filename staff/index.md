@@ -2,6 +2,7 @@
 title: Our Staff
 layout: page
 permalink: staff/
+parent: true
 ---
 
 All staff at Willows Montessori Nursery hold an Early Years qualification and are committed to participate in ongoing training to extend their knowledge.  All staff, students and volunteers have all the necessary checks including Medical and Police clearance before being employed by Willows Montessori Nursery.
