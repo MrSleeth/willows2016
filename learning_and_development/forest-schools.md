@@ -1,6 +1,6 @@
 ---
 title: Forest School
-layout: default
+layout: page
 permalink: /learning-and-development/forest-school/
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Children's Learning and Development
-layout: default
+layout: page
 permalink: learning-and-development/
 ---
 

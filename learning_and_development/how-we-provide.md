@@ -1,6 +1,6 @@
 ---
 title: How we provide for development and learning
-layout: default
+layout: page
 permalink: /learning-and-development/how/
 ---
 

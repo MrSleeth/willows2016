@@ -1,6 +1,6 @@
 ---
 title: Our approach to learning and development and assessment
-layout: default
+layout: page
 permalink: /learning-and-development/our-approach/
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Our Policies and Procedures
-layout: default
+layout: page
 permalink: policies/
 ---
 

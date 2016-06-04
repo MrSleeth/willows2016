@@ -1,6 +1,6 @@
 ---
 title: Our Staff
-layout: default
+layout: page
 permalink: staff/
 ---
 

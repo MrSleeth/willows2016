@@ -1,6 +1,6 @@
 ---
 title: Terms and Conditions
-layout: default
+layout: page
 permalink: terms-conditions/
 ---
 
