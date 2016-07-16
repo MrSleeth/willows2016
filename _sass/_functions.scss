@@ -1,0 +1,11 @@
+@function px2em($pxval, $basefont: $base-font-size) {
+  @if(unitless($pxval)) {
+    $pxval: $pxval * 1px;
+  }
+
+  @if(unitless($basefont)) {
+    $basefont: $basefont * 1px;
+  }
+
+  @return $pxval / $basefont * 1em;
+}
