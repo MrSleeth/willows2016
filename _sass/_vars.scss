@@ -8,9 +8,12 @@ $base-line-height: 1.5;
 
 $spacing-unit:     $base-line-height * 1rem;
 
+// COLOURS
+$primary: #94ad2a;
+
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      $primary;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

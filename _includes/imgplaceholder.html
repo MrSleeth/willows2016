@@ -1,0 +1,13 @@
+{% comment %}
+  # Image Placeholder
+
+  ## Usage
+  Pass width and height params to include statement to create custom-sized image
+  If no sizes are passed, 100x100 default is used
+{% endcomment %}
+
+{% if include.width and include.height %}
+<img src="http://placehold.it/{{ include.width }}x{{ include.height}}">
+{% else %}
+<img src="http://placehold.it/100x100">
+{% endif %}
