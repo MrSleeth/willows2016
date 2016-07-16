@@ -23,7 +23,6 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
-    padding: 0 1em 0 1em;
     margin: 0 auto;
     max-width: px2em(650px);
 }
@@ -98,11 +97,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $secondary;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($secondary, 15%);
     }
 
     &:hover {
@@ -181,4 +180,48 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+/**
+ * Basic layout
+ */
+.l- {
+  &container {
+    padding: 1em;
+  }
+}
+
+/**
+ * Global Nav
+ */
+
+.nav-global {
+  background-color: $primary;
+  border: solid 5px lighten($primary, 10%);
+  border-left: none;
+  border-right: none;
+
+  ul {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  li {
+    list-style-type: none;
+    padding: .5em 0;
+
+    a, a:visited {
+      color: $text-color-inverse;
+    }
+  }
+}
+
+/**
+ * Footer
+ */
+
+footer {
+  background-color: $secondary;
+  border-top: solid 5px $primary;
+  color: $text-color-inverse;
 }

@@ -9,10 +9,14 @@ $base-line-height: 1.5;
 $spacing-unit:     $base-line-height * 1rem;
 
 // COLOURS
-$primary: #94ad2a;
-$secondary: #3f75ba;
+$primary: #adbd06;
+$secondary: #7d4a04;
+$tertiary: #821f29;
+// #d46600
+// #f6e03f
 
 $text-color:       #111;
+$text-color-inverse: invert($text-color);
 $background-color: #fdfdfd;
 $brand-color:      $primary;
 
