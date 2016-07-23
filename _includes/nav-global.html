@@ -1,8 +1,20 @@
 <nav id="globalNav" class="nav-global l-container">
   <ul>
-    {% for my_page in site.pages %}
-      {% if my_page.parent %}
-      <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+    {% for col in site.collections %}
+    {% assign section = col.label %}
+
+    {% if section != "posts" %}
+      {% if section == "willows" %}
+        {% assign section = "About Willows" %}
+      {% endif %}
+        <li>
+          {{ section | replace: "_", " " | capitalize }}
+          <ul>
+            {% for page in site.[col.label] %}
+              <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
       {% endif %}
     {% endfor %}
   </ul>

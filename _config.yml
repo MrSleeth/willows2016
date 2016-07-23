@@ -22,5 +22,11 @@ markdown: kramdown
 exclude: ['source', Vagrantfile, Gemfile, Gemfile.lock, vhost.conf, README.md, provision.sh]
 
 collections:
-  images:
+  parents:
+    output: true
+  policies:
+    output: true
+  learning_and_development:
+    output: true
+  willows:
     output: true

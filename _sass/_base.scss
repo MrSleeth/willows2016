@@ -35,7 +35,7 @@ body {
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
-header, footer
+header, footer, main li,
 %vertical-rhythm {
     margin-bottom: $base-font-size * $base-line-height; // fallback
     margin-bottom: $spacing-unit;
@@ -201,7 +201,7 @@ pre {
   border-left: none;
   border-right: none;
 
-  ul {
+  > ul {
     margin-bottom: 0;
     margin-left: 0;
   }
