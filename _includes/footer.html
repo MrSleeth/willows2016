@@ -1,8 +1,22 @@
 <footer class="l-container">
-{{ site.title }}
-{{ site.email }}
-{% if site.twitter_username %}
-  {% include icon-twitter.html username=site.twitter_username %}
-{% endif %}
-{{ site.description }}
+  <h2>{{ site.title }}</h2>
+  <p>
+    {{ site.description }}
+  </p>
+  <p>
+    <a href="mailto://{{ site.email }}">Email us: <span aria-label="willows montessori nursery at G mail dot com">{{ site.email }}</span></a>
+  </p>
+  <p>
+    Phone: 0191 413 1929
+  </p>
+  <p>
+    Community Centre<br />
+    Barmoor Ln<br />
+    Ryton<br />
+    Tyne and Wear<br />
+    NE40 3QP
+  </p>
+  <p>
+    <small>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</small>
+  </p>
 </footer>
