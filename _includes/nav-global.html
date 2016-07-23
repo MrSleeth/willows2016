@@ -8,7 +8,7 @@
         {% assign section = "About Willows" %}
       {% endif %}
         <li>
-          {{ section | replace: "_", " " | capitalize }}
+          <a href="#">{{ section | replace: "_", " " | capitalize }}</a>
           <ul>
             {% for page in site.[col.label] %}
               <li><a href="{{ page.url }}">{{ page.title }}</a></li>

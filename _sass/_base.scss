@@ -222,6 +222,10 @@ pre {
 
 footer {
   background-color: $secondary;
-  border-top: solid 5px $primary;
   color: $text-color-inverse;
+
+  small {
+    display: block;
+    text-align: center;
+  }
 }
