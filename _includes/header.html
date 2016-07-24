@@ -1,9 +1,11 @@
 <header class="l-container">
 
-  <a href="{{ site.github.url }}/">
+  <a class="header-link" href="{{ site.github.url }}/">
+    {% comment %}
     {% include imgplaceholder.html width=100 height=100 %}
-    <span>{{ site.title }}</span>
+    {% endcomment %}
+    <span class="header-title">{{ site.title }}</span>
   </a>
 
-  <a class="" href="#globalNav">Menu</a>
+  <a class="btn-menu" href="#globalNav">Menu</a>
 </header>

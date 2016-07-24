@@ -13,6 +13,11 @@ dl, dd, ol, ul, figure {
 /**
 * Basic styling
 */
+
+// *:focus {
+//   outline: dashed 2px $orange;
+// }
+
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
@@ -35,7 +40,7 @@ body {
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
-header, footer, main li,
+main li,
 %vertical-rhythm {
   margin-bottom: $base-font-size * $base-line-height; // fallback
   margin-bottom: $spacing-unit;
@@ -196,23 +201,60 @@ pre {
 */
 
 .nav-global {
-  background-color: $primary;
-  border: solid 5px lighten($primary, 10%);
+  border: solid 5px $primary;
   border-left: none;
   border-right: none;
+
+  a:visited {
+    color: $secondary;
+  }
 
   > ul {
     margin-bottom: 0;
     margin-left: 0;
+
+    > li {
+      border-bottom: solid 1px $primary;
+    }
   }
 
   li {
     list-style-type: none;
     padding: .5em 0;
+  }
+}
 
-    a, a:visited {
-      color: $text-color-inverse;
-    }
+/**
+* Header
+*/
+
+.header-link {
+  @extend %vertical-rhythm;
+  display: block;
+  text-align: center;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.header-title {
+  font-size: 2.5em;
+}
+
+.btn-menu {
+  display: inline-block;
+  padding: .5em;
+  background: $primary;
+  border: solid 2px $secondary;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    background: $secondary;
+    border-color: $primary;
+    color: $text-color-inverse;
+    text-decoration: none;
   }
 }
 
@@ -223,6 +265,10 @@ pre {
 footer {
   background-color: $secondary;
   color: $text-color-inverse;
+
+  h2, a {
+    color: inherit;
+  }
 
   small {
     display: block;
