@@ -7,4 +7,13 @@
         "vars",
         "functions",
         "mixins",
-        "enhanced/type";
+        "enhanced/type",
+        "enhanced/nav";
+
+body {
+  max-width: 100%;
+}
+
+.l-container {
+  padding: 0 calc(50% - 31.25rem);
+}

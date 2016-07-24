@@ -9,7 +9,7 @@
       {% endif %}
         <li>
           <a href="#">{{ section | replace: "_", " " | capitalize }}</a>
-          <ul>
+          <ul class="subnav">
             {% for page in site.[col.label] %}
               <li><a href="{{ page.url | prepend: site.github.url }}">{{ page.title }}</a></li>
             {% endfor %}
