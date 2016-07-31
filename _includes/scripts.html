@@ -4,8 +4,11 @@
 
   var nav = document.querySelector("#globalNav");
   var main = document.getElementById("main");
-  var navCopy = nav.cloneNode();
+  var navPlaceholder = document.getElementById("navPlaceholder");
+  var parentEl = document.getElementById("navPlaceholder").parentNode;
+  var navCopy = nav.cloneNode(true);
   nav.remove();
+  parentEl.replaceChild(navCopy, navPlaceholder);
 
 })();
 
