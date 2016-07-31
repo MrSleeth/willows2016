@@ -15,5 +15,9 @@ body {
 }
 
 .l-container {
-  padding: 0 calc(50% - 31.25rem);
+  padding: 0 1rem;
+
+  @include media-query(62.5em) {
+    padding: 0 calc(50% - 30.25rem); // 968px  
+  }
 }
