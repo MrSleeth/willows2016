@@ -1,5 +1,5 @@
 <nav id="globalNav" class="nav-global l-container">
-  <ul>
+  <ul class="primary-nav">
     {% for col in site.collections %}
     {% assign section = col.label %}
 
@@ -8,10 +8,10 @@
         {% assign section = "About Willows" %}
       {% endif %}
         <li>
-          <a href="#">{{ section | replace: "_", " " | capitalize }}</a>
-          <ul class="subnav">
+          <a href="#" class="nav-link nav-link--primary">{{ section | replace: "_", " " | capitalize }}</a>
+          <ul class="sub-nav">
             {% for page in site.[col.label] %}
-              <li><a href="{{ page.url | prepend: site.github.url }}">{{ page.title }}</a></li>
+              <li><a href="{{ page.url | prepend: site.github.url }}" class="nav-link nav-link--secondary">{{ page.title }}</a></li>
             {% endfor %}
           </ul>
         </li>
