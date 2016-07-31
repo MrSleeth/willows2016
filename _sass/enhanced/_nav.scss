@@ -2,33 +2,61 @@
   display: none;
 }
 
-.subnav {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height .3s ease-in-out;
-}
-
 .nav-global {
   margin-bottom: 1.5rem;
 
-  > ul {
+  li {
+    padding: 0;
+
+    &:last-child {
+      border: none;
+    }
+  }
+}
+
+.primary-nav {
     display: flex;
     flex-wrap: wrap;
+    //
 
-    > li {
-      border: none;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      flex-basis: 6.5625rem;
-      flex-grow: 1;
-      text-align: center;
-      min-height: 3.125rem;
+  // > li
+  //   border: none;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   flex-basis: 6.5625rem;
+  //   flex-grow: 1;
+  //   text-align: center;
+  //   min-height: 3.125rem;
+  //
+}
 
-      a {
-        display: block;
-        text-transform: capitalize;
-      }
-    }
+.nav__item {
+  // display: flex;
+  // flex-basis: 18.75rem; //300px
+  flex-grow: 1;
+  flex: 1 1 15rem; // 240px
+}
+
+.nav-link {
+  display: block;
+  text-transform: capitalize;
+
+  &--primary {
+    padding: 1em 0;
+  }
+
+  &--secondary {
+    padding: .5em 0;
+  }
+}
+
+.sub-nav {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .3s ease-in-out;
+
+  li:first-child a {
+    padding-top: 0;
   }
 }
