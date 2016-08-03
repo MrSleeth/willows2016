@@ -29,8 +29,13 @@ h6,
 }
 
 .giga {
-  font-size: 4em;
+  font-size: 14vw;
   line-height: 1;
+
+  @include media-query(31.25em) {// 500px
+    font-size: 4.375em; // 70px;
+  }
+
 }
 
 h1, .alpha {

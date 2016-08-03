@@ -3,11 +3,13 @@
 }
 
 .nav-global {
+  background-color: rgba(255,255,255, .9);
   margin-bottom: 1.5rem;
 
   li {
     padding: 0;
 
+    border: none !important;
     &:last-child {
       border: none;
     }
@@ -17,6 +19,7 @@
 .primary-nav {
     display: flex;
     flex-wrap: wrap;
+    font-family: $e-headings;
     //
 
   // > li
@@ -34,8 +37,11 @@
 .nav__item {
   // display: flex;
   // flex-basis: 18.75rem; //300px
-  flex-grow: 1;
-  flex: 1 1 15rem; // 240px
+  // background: url(img/sign.jpg) no-repeat;
+  // background-size: 100%;
+  // flex-grow: 1;
+  flex: 1 1 12rem; // 192px NEEDS BREAKPOINT
+  text-align: center;
 }
 
 .nav-link {

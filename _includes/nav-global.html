@@ -1,4 +1,4 @@
-<nav id="globalNav" class="nav-global l-container">
+<nav id="globalNav" class="nav-global l-container l-container--full">
   <ul class="primary-nav">
     {% for col in site.collections %}
     {% assign section = col.label %}
@@ -6,6 +6,9 @@
     {% if section != "posts" %}
       {% if section == "willows" %}
         {% assign section = "About Willows" %}
+      {% endif %}
+      {% if section == "learning_and_development" %}
+        {% assign section = "Learning" %}
       {% endif %}
         <li class="nav__item">
           <a href="#" class="nav-link nav-link--primary">{{ section | replace: "_", " " | capitalize }}</a>

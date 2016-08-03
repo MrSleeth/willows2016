@@ -1,14 +1,5 @@
-<footer class="l-container">
-  <h2>{{ site.title }}</h2>
-  <p>
-    {{ site.description }}
-  </p>
-  <p>
-    <a href="mailto:{{ site.email }}">Email us: <span aria-label="willows montessori nursery at G mail dot com">{{ site.email }}</span></a>
-  </p>
-  <p>
-    Phone: 0191 413 1929
-  </p>
+<footer class="l-container l-container--full">
+  <h2><span class="u-visually-hidden">{{ site.title }}</span><img src="img/willows_logo-small.jpg" class="logo" alt="" /></h2>
   <p>
     Community Centre<br />
     Barmoor Ln<br />
@@ -17,6 +8,10 @@
     NE40 3QP
   </p>
   <p>
-    <small>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</small>
+    <a href="mailto:{{ site.email }}">Email us: <span aria-label="willows montessori nursery at G mail dot com">{{ site.email }}</span></a>
   </p>
+  <p>
+    Phone: 0191 413 1929
+  </p>
+  <small>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</small>
 </footer>

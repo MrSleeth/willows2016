@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="homepage">
 
   {% include header.html %}
 
@@ -11,8 +11,10 @@
 
   </div>
 
-  <main id="main" class="l-container">
-    {{ content }}
+  <main id="main" class="l-container l-container--full">
+    <div class="l-grid-70">
+      {{ content }}
+    </div>
   </main>
 
   {% include nav-global.html %}

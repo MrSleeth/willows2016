@@ -11,13 +11,65 @@
         "enhanced/nav";
 
 body {
+  // background: linear-gradient(0deg, #e6e6e6, #0080ff);
   max-width: 100%;
+
+  &.homepage {
+    @include media-query(25em) { // 400px
+      background: url(img/tree.svg) no-repeat 71vw 0;
+      background-image: url(img/tree2.jpeg);
+      // background-size: 100vh;
+    }
+  }
+}
+
+header {
+  min-height: 1.5em;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-link {
+  color: $orange;
+  margin-bottom: 0;
 }
 
 .l-container {
-  padding: 0 1rem;
+  padding: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
-  @include media-query(62.5em) {
-    padding: 0 calc(50% - 30.25rem); // 968px  
+  &--full {
+    @include media-query(62.5em) {
+      padding-left: calc(50% - 30.25rem); // 968px
+      padding-right: calc(50% - 30.25rem); // 968px
+    }
   }
+}
+
+.l-grid-70 {
+  background-color: rgba(255,255,255,.8);
+  // border: solid 2px rgba($red, $red, $red, $alpha);lighten($secondary, 30%);
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+
+  @include media-query(25em) { // 400px
+    padding: 1em;
+    width: 70%;
+  }
+}
+
+footer {
+
+  border-top: solid 30px $primary;
+  border-image: url(img/grass_ph.png) 100% 30 repeat;
+  border-image-outset: .9;
+
+  padding-top: 1.5em !important;
+  padding-bottom: 1.5em !important;
+}
+.logo {
+  border-radius: 10px;
 }
