@@ -27,3 +27,5 @@ collections:
     output: true
   willows:
     output: true
+  rooms:
+    output: true
