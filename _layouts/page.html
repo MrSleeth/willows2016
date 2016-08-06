@@ -2,6 +2,13 @@
 layout: default
 ---
 
-  <div class="l-grid-60 l-centred">
-    {{ content }}
-  </div>
+{% assign col = site.[page.collection] %}
+
+<div class="l-grid-60 l-centred">
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+</div>
+
+{% if col.size > 1 %}
+  {% include nav-secondary.html %}
+{% endif %}
