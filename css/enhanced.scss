@@ -129,7 +129,6 @@ blockquote {
 }
 
 footer {
-
   border-top: solid 30px $primary;
   border-image: url(img/grass_ph.png) 100% 30 repeat;
   border-image-outset: .9;
@@ -137,6 +136,13 @@ footer {
   padding-top: 1.5em !important;
   padding-bottom: 1.5em !important;
 }
+
+.footer-title {
+  @include media-query(26.25em) { // 420px
+    float: right;
+  }
+}
+
 .logo {
   border-radius: 10px;
 }

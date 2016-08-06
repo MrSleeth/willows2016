@@ -51,11 +51,14 @@ main li,
 /**
 * Images
 */
-img {
+img,
+iframe {
   max-width: 100%;
   vertical-align: middle;
 }
-
+iframe {
+  margin: auto;
+}
 
 
 /**
