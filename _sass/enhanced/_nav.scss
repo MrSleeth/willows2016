@@ -1,0 +1,72 @@
+.btn-menu {
+  display: none;
+}
+
+.nav-global {
+  background-color: rgba(255,255,255, .9);
+  margin-bottom: 1.5rem;
+
+  li {
+    padding: 0;
+
+    border: none !important;
+    &:last-child {
+      border: none;
+    }
+  }
+}
+
+.primary-nav {
+    display: flex;
+    // flex-wrap: wrap;
+    font-family: $e-headings;
+    //
+
+  // > li
+  //   border: none;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   flex-basis: 6.5625rem;
+  //   flex-grow: 1;
+  //   text-align: center;
+  //   min-height: 3.125rem;
+  //
+}
+
+.nav__item {
+  // display: flex;
+  // flex-basis: 18.75rem; //300px
+  // background: url(img/sign.jpg) no-repeat;
+  // background-size: 100%;
+  // flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1; // 192px NEEDS BREAKPOINT
+  text-align: center;
+}
+
+.nav-link {
+  display: block;
+  text-transform: capitalize;
+
+  &--primary {
+    padding: 1em 0;
+  }
+
+  &--secondary {
+    padding: .5em 0;
+  }
+}
+
+.sub-nav {
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .3s ease-in-out;
+
+  li:first-child a {
+    padding-top: 0;
+  }
+}

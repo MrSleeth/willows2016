@@ -3,13 +3,19 @@
 
   {% include head.html %}
 
-  <body>
+  <body {% if page.bodyclass %}class="homepage"{% endif %}>
+
+  {% include icons.html %}
 
   {% include header.html %}
 
-  <div class="l-container">
-    {{ content }}
+  <div id="navPlaceholder">
+
   </div>
+
+  <main id="main" class="l-container l-container--full {% if page.collection %} l-flexgrid {% endif %}">
+    {{ content }}
+  </main>
 
   {% include nav-global.html %}
 

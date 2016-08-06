@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: homepage
+bodyclass: homepage
 ---
 
-# Willows Montessori Nursery
+# Welcome to Willows
 
 Willows Montessori Nursery is a small, friendly, child centred Nursery set in the beautiful surroundings of Old Ryton Village.  We have a fully secure outdoor garden for play and outdoor learning activities.
 

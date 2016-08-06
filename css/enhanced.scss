@@ -1,0 +1,146 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@import
+        "vars",
+        "functions",
+        "mixins",
+        "enhanced/type",
+        "enhanced/nav";
+
+body {
+  // background: linear-gradient(0deg, #e6e6e6, #0080ff);
+  max-width: 100%;
+
+  &.homepage {
+    @include media-query(25em) { // 400px
+      background: url(img/willowtree_hi.jpg) no-repeat 71vw 0;
+      // background-size: 100vh;
+    }
+  }
+}
+
+header {
+  min-height: 11rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-link {
+  color: $orange;
+  margin-bottom: 0;
+}
+
+main {
+  margin-bottom: 3rem;
+}
+
+.l-container {
+  padding: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  &--full {
+    @include media-query(62.5em) {
+      padding-left: calc(50% - 30.25rem); // 968px
+      padding-right: calc(50% - 30.25rem); // 968px
+    }
+  }
+}
+
+.l-grid-60 {
+  @include media-query(25em) { // 400px
+    width: 60%;
+  }
+}
+
+.l-grid-70 {
+  background-color: rgba(255,255,255,.8);
+  // border: solid 2px rgba($red, $red, $red, $alpha);lighten($secondary, 30%);
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+
+  @include media-query(25em) { // 400px
+    padding: 1em;
+    width: 70%;
+  }
+}
+
+.l-centred {
+  margin: auto;
+}
+
+.l-flexgrid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &__main {
+    flex: 3 1 29.375rem; // 470px
+    max-width: 40.625rem; // 650px
+  }
+
+  &__aside {
+    flex: 0 1 15.625rem; // 250px
+
+    @include media-query(46.875em) { // 750px
+      margin-left: 5.6%;
+    }
+  }
+}
+
+blockquote {
+  border: none;
+  margin-bottom: 3rem;
+
+  @include media-query(28.125em) { // 450px
+    padding: 0 2em;
+    // position: relative;
+  }
+
+
+  &::before,
+  &::after {
+    // position: absolute;
+    display: block;
+  }
+
+  &::before {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="#6b6038"><path d="M7.031 14a7 7 0 1 1-7 7L0 20C0 12.268 6.268 6 14 6v4a9.934 9.934 0 0 0-7.071 2.929 10.24 10.24 0 0 0-.995 1.157A7.081 7.081 0 0 1 7.031 14zm18 0a7 7 0 1 1-7 7L18 20c0-7.732 6.268-14 14-14v4a9.934 9.934 0 0 0-7.071 2.929 10.24 10.24 0 0 0-.995 1.157A7.09 7.09 0 0 1 25.031 14z"/></svg>');
+
+    @include media-query(28.125em) { // 450px
+      margin-left: -2em;
+    }
+  }
+
+  &::after {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="#6b6038"><path d="M25 20a7 7 0 1 1 7-7l.031 1c0 7.732-6.268 14-14 14v-4a9.934 9.934 0 0 0 7.071-2.929c.364-.364.695-.75.995-1.157A7.081 7.081 0 0 1 25 20zM7 20a7 7 0 1 1 7-7l.031 1c0 7.732-6.268 14-14 14v-4a9.934 9.934 0 0 0 7.071-2.929c.364-.364.695-.75.995-1.157A7.081 7.081 0 0 1 7 20z"/></svg>');
+    text-align: right;
+
+    @include media-query(28.125em) { // 450px
+      margin-right: -2em;
+    }
+  }
+}
+
+footer {
+  border-top: solid 30px $primary;
+  border-image: url(img/grass_ph.png) 100% 30 repeat;
+  border-image-outset: .9;
+
+  padding-top: 1.5em !important;
+  padding-bottom: 1.5em !important;
+}
+
+.footer-title {
+  @include media-query(26.25em) { // 420px
+    float: right;
+  }
+}
+
+.logo {
+  border-radius: 10px;
+}

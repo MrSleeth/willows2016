@@ -1,0 +1,56 @@
+$e-headings: "verveine", sans-serif;
+$e-body: "proxima-nova-soft", sans-serif;
+$e-body2: "ff-meta-serif-web-pro", serif;
+//
+// h1 {
+//   font-family: "verveine",sans-serif;
+//   }
+//
+//   h1 {
+//   font-family: "ff-meta-serif-web-pro",serif;
+//   }
+//
+//   h1 {
+//   font-family: "proxima-nova-soft",sans-serif;
+//   }
+
+body {
+  font-family: $e-body2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.giga {
+  font-family: $e-headings;
+}
+
+.giga {
+  font-size: 14vw;
+  line-height: 1;
+
+  @include media-query(31.25em) {// 500px
+    font-size: 4.375em; // 70px;
+  }
+
+}
+
+h1, .alpha {
+  font-size: 3em; // 48px
+  line-height: 1.2;
+}
+
+h2, .beta {
+  font-size: 2.25em; // 36px
+}
+
+h3, .gamma {
+  font-size: 1.5em; // 24px
+}
+
+h4, .delta {
+  font-size: 1.125em; // 18px
+}

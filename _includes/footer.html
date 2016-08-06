@@ -1,7 +1,16 @@
-<footer class="l-container">
-  <h2>{{ site.title }}</h2>
+<footer class="l-container l-container--full">
+  <h2 class="footer-title">
+    <span class="u-visually-hidden">{{ site.title }}</span><img src="{{ "/img/willows_logo-small.jpg" | prepend: site.github.url }}" class="logo" alt="" />
+  </h2>
   <p>
-    {{ site.description }}
+    <a href="{{ /location | prepend: site.github.url }}">
+      <span class="u-visually-hidden">Show address on Google Map</span>
+      Community Centre<br />
+      Barmoor Ln<br />
+      Ryton<br />
+      Tyne and Wear<br />
+      NE40 3QP
+    </a>
   </p>
   <p>
     <a href="mailto:{{ site.email }}">Email us: <span aria-label="willows montessori nursery at G mail dot com">{{ site.email }}</span></a>
@@ -9,14 +18,5 @@
   <p>
     Phone: 0191 413 1929
   </p>
-  <p>
-    Community Centre<br />
-    Barmoor Ln<br />
-    Ryton<br />
-    Tyne and Wear<br />
-    NE40 3QP
-  </p>
-  <p>
-    <small>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</small>
-  </p>
+  <small>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</small>
 </footer>

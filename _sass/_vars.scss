@@ -9,11 +9,11 @@ $base-line-height: 1.5;
 $spacing-unit:     $base-line-height * 1rem;
 
 // COLOURS
-$primary: #adbd06;
-$secondary: #7d4a04;
+$primary: #a6c94b; //#688b7a;
+$secondary: #6b6038; //#7b6a58; // TODO: Colour match
 $tertiary: #821f29;
-// #d46600
-// #f6e03f
+$orange: #d46600;
+$yellow: #f6e03f;
 
 $text-color:       #111;
 $text-color-inverse: invert($text-color);
