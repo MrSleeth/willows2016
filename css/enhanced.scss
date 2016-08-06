@@ -16,16 +16,14 @@ body {
 
   &.homepage {
     @include media-query(25em) { // 400px
-      background: url(img/tree.svg) no-repeat 71vw 0;
-      background-image: url(img/tree2.jpeg);
+      background: url(img/willowtree_hi.jpg) no-repeat 71vw 0;
       // background-size: 100vh;
     }
   }
 }
 
 header {
-  min-height: 1.5em;
-  height: 30vh;
+  min-height: 11rem;
   display: flex;
   align-items: center;
   justify-content: center;

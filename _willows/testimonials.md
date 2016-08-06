@@ -8,7 +8,6 @@ layout: page
 {% for quote in site.data.testimonials %}
 
 <section>
-
   <h2>
     {{ quote.name }} <span>{{ quote.description }}:</span>
   </h2>

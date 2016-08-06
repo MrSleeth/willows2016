@@ -17,14 +17,10 @@ If at any time you feel there is a problem please speak to a member of staff who
 
 If you do not feel we have dealt with your problem to your satisfaction you may wish to contact OFSTED at the address below:
 
-<address>
-  <pre>
-    OFSTED
-    3rd Floor, Royal Exchange Buildings
-    St. Ann’s Square
-    Manchester
-    M2 7LA
-  </pre>
-</address>
+OFSTED<br />
+3rd Floor, Royal Exchange Buildings<br />
+St. Ann’s Square<br />
+Manchester<br />
+M2 7LA<br />
 
 Telephone: 08456 404040

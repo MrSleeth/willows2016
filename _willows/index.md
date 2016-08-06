@@ -1,11 +1,11 @@
 ---
-title: Aims and Objectives
+title: About Willows
 layout: page
-permalink: aims/
+permalink: willows/
 parent: true
 ---
 
-## We aim
+## Our aims and objectives are
 
 - To provide a happy, safe and stimulating Montessori environment in which each child can develop his/her ability to its full potential.
 

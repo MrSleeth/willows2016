@@ -1,8 +1,10 @@
 ---
 title: Rooms
 layout: page
-permalink: rooms/
+permalink: willows/rooms/
 parent: true
 ---
 
 ## Rooms
+
+{{ site.rooms }}
