@@ -71,6 +71,25 @@ header {
   margin: auto;
 }
 
+.l-flexgrid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &__main {
+    flex: 3 1 29.375rem; // 470px
+    max-width: 40.625rem; // 650px
+  }
+
+  &__aside {
+    flex: 0 1 15.625rem; // 250px
+
+    @include media-query(46.875em) { // 750px
+      margin-left: 5.6%;
+    }
+  }
+}
+
 footer {
 
   border-top: solid 30px $primary;

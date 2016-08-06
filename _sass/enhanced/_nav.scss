@@ -18,7 +18,7 @@
 
 .primary-nav {
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     font-family: $e-headings;
     //
 
@@ -40,7 +40,10 @@
   // background: url(img/sign.jpg) no-repeat;
   // background-size: 100%;
   // flex-grow: 1;
-  flex: 1 1 12rem; // 192px NEEDS BREAKPOINT
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1; // 192px NEEDS BREAKPOINT
   text-align: center;
 }
 
@@ -58,6 +61,7 @@
 }
 
 .sub-nav {
+  display: none;
   max-height: 0;
   overflow: hidden;
   transition: max-height .3s ease-in-out;

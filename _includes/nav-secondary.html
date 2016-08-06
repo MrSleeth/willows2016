@@ -1,8 +1,12 @@
-<nav>
-  <h2>In this section</h2>
-  <ul>
-  {% for doc in site.[page.collection] %}
-    <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-  {% endfor %}
-  </ul>
-</nav>
+<aside class="l-flexgrid__aside">
+  <nav>
+    <h2>Also in this section...</h2>
+    <ul>
+    {% for doc in site.[page.collection] %}
+      {% if doc.title != page.title %}
+        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </nav>
+</aside>

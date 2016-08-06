@@ -11,10 +11,10 @@
 
   </div>
 
-  <main id="main" class="l-container l-container--full">
+  <main id="main" class="l-container l-container--full {% if page.collection %} l-flexgrid {% endif %}">
     {{ content }}
   </main>
-    
+
   {% include nav-global.html %}
 
   {% include footer.html %}
