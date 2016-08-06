@@ -29,3 +29,35 @@ collections:
     output: true
   rooms:
     output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: 'parents'
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: 'policies'
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: 'learning_and_development'
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: 'willows'
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: 'rooms'
+    values:
+      layout: "page"
