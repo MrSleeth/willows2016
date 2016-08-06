@@ -1,0 +1,8 @@
+<nav>
+  <h2>In this section</h2>
+  <ul>
+  {% for doc in site.[page.collection] %}
+    <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+  {% endfor %}
+  </ul>
+</nav>

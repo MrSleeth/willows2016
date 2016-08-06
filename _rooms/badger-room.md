@@ -1,7 +1,6 @@
 ---
+title: The Badger Room
 ---
-
-# The Badger Room
 
 Our Badger Room is equipped for a maximum of twenty-four children per session, aged from 3 to 5 years of age, and our staff to child ratio is 1:8. This is our pre-school room and is where children will stay until they leave us to join Reception class.
 
