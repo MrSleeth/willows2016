@@ -3,16 +3,19 @@ title: Testimonials
 layout: page
 ---
 
-test
+<!--  -->
 
 {% for quote in site.data.testimonials %}
 
-<h2>
-  {{ quote.name }} <span>{{ quote.description }}</span>
-</h2>
+<section>
 
-<p>
-  {{ quote.quote }}
-</p>
+  <h2>
+    {{ quote.name }} <span>{{ quote.description }}:</span>
+  </h2>
 
+  <blockquote>
+    {{ quote.quote }}
+  </blockquote>
+
+</section>
 {% endfor %}
