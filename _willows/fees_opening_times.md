@@ -1,19 +1,17 @@
 ---
 layout: page
-title: About
-permalink: about/
+title: Our Session Times and Fees
+permalink: willows/fees-opening/
 parent: true
 ---
 
-## Our Session Times and Fees
-
-### Nursery Sessions
+## Nursery Sessions
 
 Half Day Sessions:
 	Morning:	7:45am to 1:00pm
 	Afternoon	1:00pm to 6:00pm
 
-### Fees
+## Fees
 
 The fees are payable monthly in advance.  Fees must be still paid if children are absent without notice for a short period of time.  If your child has to be absent over a long period of time, talk to Ethel Mills who is the Nursery Principal.
 

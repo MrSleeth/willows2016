@@ -1,5 +1,11 @@
 <nav id="globalNav" class="nav-global l-container l-container--full">
   <ul class="primary-nav">
+    <li class="nav__item">
+      <a href="/">
+        <span class="u-visually-hidden">Home</span>
+        <svg class="icon icon-home2"><use xlink:href="#icon-home2"></use></svg>
+      </a>
+    </li>
     {% for col in site.collections %}
     {% assign section = col.label %}
 
@@ -11,7 +17,7 @@
         {% assign section = "Learning" %}
       {% endif %}
         <li class="nav__item">
-          <a href="/{{ col.relative_directory | remove_first: "_" | replace: "_", "-" | prepend: site.github.url }}" class="nav-link nav-link--primary">{{ section | replace: "_", " " | capitalize }}</a>
+          <a href="{{ col.permalink | remove_first: "_" | replace: "_", "-" | prepend: site.github.url }}" class="nav-link nav-link--primary">{{ section | replace: "_", " " | capitalize }}</a>
           <ul class="sub-nav">
             {% for page in site.[col.label] %}
               <li><a href="{{ page.url | prepend: site.github.url }}" class="nav-link nav-link--secondary">{{ page.title }}</a></li>
