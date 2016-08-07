@@ -22,16 +22,16 @@ exclude: ['source', Vagrantfile, Gemfile, Gemfile.lock, vhost.conf, README.md, p
 collections:
   parents:
     output: true
-    permanlink: /parents/:path
+    permanlink: /parents
   policies:
     output: true
-    permanlink: /policies/:path
+    permanlink: /policies
   learning_and_development:
     output: true
-    permanlink: /learning-and-development/:path
+    permanlink: /learning-and-development
   willows:
     output: true
-    permanlink: /willows/:path
+    permanlink: /willows
   # rooms:
   #   output: true
   #   permanlink: /rooms/:path
