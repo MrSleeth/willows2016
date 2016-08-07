@@ -46,8 +46,12 @@ header {
 }
 
 .header-link {
-  color: $orange;
+  color: $secondary;
   margin-bottom: 0;
+
+  &:visited {
+    color: $secondary;
+  }
 }
 
 main {
@@ -184,6 +188,10 @@ footer {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+}
+
+article a {
+  text-decoration: underline;
 }
 
 /* ==========================================

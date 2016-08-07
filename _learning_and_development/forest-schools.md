@@ -7,7 +7,7 @@ layout: page
 
 We run regular Forest School sessions for the older children in our nursery and have 3 qualified Forest School Leaders on staff.
 
-[Forest Schools](http://www.forestschoolassociation.org) originated in Scandinavia in the 1950’s and were based on an idea that considers children’s contact with nature to be extremely important from a very early age.
+[Forest Schools](http://www.forestschoolassociation.org) originated in Scandinavia in the 1950s and were based on an idea that considers children’s contact with nature to be extremely important from a very early age.
 
 Forest Schools first began in Britain in 1993 and in recent years the numbers have steadily increased because practitioners believe that this practical way of learning is of great benefit to children. In the forest children are developing at their own pace and in their own time, gaining an awareness of the outdoors and the environment. The outdoor learning environment has the potential to expand children’s experiences and broaden their capacity to learn and develop in unique ways, and the more relaxed and freer atmosphere provides a contrast to the classroom environment.
 

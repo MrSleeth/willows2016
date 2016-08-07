@@ -9,6 +9,8 @@
   li {
     padding: 0;
 
+    font-size: 1.5em;
+
     border: none !important;
     &:last-child {
       border: none;
@@ -52,7 +54,7 @@
   text-transform: capitalize;
 
   &--primary {
-    padding: 1em 0;
+    padding: .5em 0;
   }
 
   &--secondary {
