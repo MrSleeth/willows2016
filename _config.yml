@@ -10,7 +10,7 @@ title: Willows Montessori Nursery
 email: willowsmontessorinursery@gmail.com
 description: >
   Willows Montessori Nursery is a small, friendly, child centred Nursery set in the beautiful surroundings of Old Ryton Village, Gateshead.
-baseurl: "/willows2016" # the subpath of your site, e.g. /blog
+baseurl: "/willows2016/" # the subpath of your site, e.g. /blog
 url: "http://willowsmontessorinursery.net" # the base hostname & protocol for your site
 host: 0.0.0.0
 permalink: pretty
@@ -43,6 +43,7 @@ defaults:
       type: 'parents'
     values:
       layout: "page"
+      link: /parents
   -
     scope:
       path: ""
