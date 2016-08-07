@@ -13,7 +13,6 @@ description: >
 baseurl: "/willows2016/" # the subpath of your site, e.g. /blog
 # url: "http://willowsmontessorinursery.net" # the base hostname & protocol for your site
 host: 0.0.0.0
-# permalink: pretty
 
 # Build settings
 markdown: kramdown
@@ -22,16 +21,16 @@ exclude: ['source', Vagrantfile, Gemfile, Gemfile.lock, vhost.conf, README.md, p
 collections:
   parents:
     output: true
-    permalink: /parents/:path
+    permalink: /parents/:path/
   policies:
     output: true
-    permalink: /policies/:path
+    permalink: /policies/:path/
   learning_and_development:
     output: true
-    permalink: /learning-and-development/:path
+    permalink: /learning-and-development/:path/
   willows:
     output: true
-    permalink: /willows/:path
+    permalink: /willows/:path/
   # rooms:
   #   output: true
   #   permanlink: /rooms/:path
