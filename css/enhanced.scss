@@ -165,6 +165,14 @@ footer {
   }
 }
 
+.footer-link {
+
+  &:visited,
+  &:hover {
+    color: $grey-color-light;
+  }
+}
+
 .logo {
   border-radius: 10px;
 }
