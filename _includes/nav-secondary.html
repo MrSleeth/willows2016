@@ -4,7 +4,7 @@
     <ul>
     {% for doc in site.[page.collection] %}
       {% if doc.title != page.title %}
-        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+        <li><a href="{{ doc.url | prepend: site.github.url }}">{{ doc.title }}</a></li>
       {% endif %}
     {% endfor %}
     </ul>
