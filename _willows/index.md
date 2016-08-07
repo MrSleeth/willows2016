@@ -1,7 +1,6 @@
 ---
 title: About Willows
 layout: page
-permalink: willows/
 parent: true
 ---
 

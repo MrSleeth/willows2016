@@ -1,7 +1,6 @@
 ---
 title: Our approach to learning and development and assessment
 layout: page
-permalink: /learning-and-development/our-approach/
 ---
 
 ## Learning through play

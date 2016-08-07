@@ -1,7 +1,6 @@
 ---
 title: Forest School
 layout: page
-permalink: /learning-and-development/forest-school/
 ---
 
 ![](/img/fs_tree.jpg)

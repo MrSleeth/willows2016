@@ -1,7 +1,6 @@
 ---
 title: How we provide for development and learning
 layout: page
-permalink: /learning-and-development/how/
 ---
 
 Children start to learn about the world around them from the moment they are born. The care and education offered by our setting helps children to continue to do this by providing all of the children with interesting activities that are appropriate for their age and stage of development.

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Our Session Times and Fees
-permalink: willows/fees-opening/
 parent: true
 ---
 

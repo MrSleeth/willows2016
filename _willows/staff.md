@@ -1,7 +1,6 @@
 ---
 title: Our Staff
 layout: page
-permalink: staff/
 parent: true
 ---
 

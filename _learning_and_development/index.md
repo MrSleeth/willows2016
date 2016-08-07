@@ -1,7 +1,6 @@
 ---
 title: Children's Learning and Development
 layout: page
-permalink: learning-and-development/
 parent: true
 ---
 

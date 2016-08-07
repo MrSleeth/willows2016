@@ -1,7 +1,6 @@
 ---
 title: Parents and Nursery
 layout: page
-permalink: parents/
 parent: true
 ---
 
