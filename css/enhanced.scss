@@ -93,15 +93,22 @@ main {
 .l-flexgrid {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
 
   &__main {
     flex: 3 1 29.375rem; // 470px
     max-width: 40.625rem; // 650px
+    background-color: rgba(255,255,255,.8);
+    border-radius: 5px;
+    padding: 0 1em;
   }
 
   &__aside {
     flex: 0 1 15.625rem; // 250px
+    background-color: rgba(255,255,255,.8);
+    border-radius: 5px;
+    padding: 0 1em;
 
     @include media-query(46.875em) { // 750px
       margin-left: 5.6%;
