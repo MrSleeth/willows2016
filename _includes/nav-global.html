@@ -17,7 +17,7 @@
         {% assign section = "Learning" %}
       {% endif %}
         <li class="nav__item">
-          <a data-test="{{ site.[col.label].permalink }}" href="{{ col.label | replace: "_", "-" | prepend: site.github.url | downcase }}" class="nav-link nav-link--primary">{{ section | replace: "_", " " | capitalize }}</a>
+          <a data-test="{{ site.[col.label].permalink }}" href="{{ col.label | replace: "_", "-" | prepend: site.github.url | prepend: "/" | downcase }}" class="nav-link nav-link--primary">{{ section | replace: "_", " " | capitalize }}</a>
           <ul class="sub-nav">
             {% for page in site.[col.label] %}
               <li><a href="{{ page.url | prepend: site.github.url }}" class="nav-link nav-link--secondary">{{ page.title }}</a></li>
