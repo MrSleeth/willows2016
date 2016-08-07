@@ -2,6 +2,7 @@
 title: About Willows
 layout: page
 parent: true
+permalink: /willows/
 ---
 
 ## Our aims and objectives are

@@ -2,7 +2,7 @@
 title: Our Policies and Procedures
 layout: page
 parent: true
-permalink: /willows/
+permalink: /policies/
 ---
 
 Our registration and management practices are supported by a comprehensive set of Policies and Procedures which assure our compliance to the latest Care Standards.  These are always readily available for inspection by parents / carers at Willows Montessori Nursery.
