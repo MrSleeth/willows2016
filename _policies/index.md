@@ -1,6 +1,7 @@
 ---
 title: Our Policies and Procedures
 layout: page
+permalink: policies/
 parent: true
 ---
 
