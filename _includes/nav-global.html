@@ -11,7 +11,7 @@
         {% assign section = "Learning" %}
       {% endif %}
         <li class="nav__item">
-          <a href="/{{ col.relative_directory | remove_first: "_" | replace: "_", "-"}}" class="nav-link nav-link--primary">{{ section | replace: "_", " " | capitalize }}</a>
+          <a href="/{{ col.relative_directory | remove_first: "_" | replace: "_", "-" | prepend: site.github.url }}" class="nav-link nav-link--primary">{{ section | replace: "_", " " | capitalize }}</a>
           <ul class="sub-nav">
             {% for page in site.[col.label] %}
               <li><a href="{{ page.url | prepend: site.github.url }}" class="nav-link nav-link--secondary">{{ page.title }}</a></li>
