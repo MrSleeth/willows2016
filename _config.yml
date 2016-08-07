@@ -17,6 +17,7 @@ host: 0.0.0.0
 # Build settings
 markdown: kramdown
 exclude: ['source', Vagrantfile, Gemfile, Gemfile.lock, vhost.conf, README.md, provision.sh]
+permalink: pretty
 
 collections:
   parents:
