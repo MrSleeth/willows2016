@@ -10,6 +10,10 @@
         "enhanced/type",
         "enhanced/nav";
 
+html {
+  position: relative;
+}
+
 body {
   // background: linear-gradient(0deg, #e6e6e6, #0080ff);
   max-width: 100%;
@@ -23,10 +27,10 @@ body {
       content: '';
       position: absolute;
       background: url(img/willowtree_hi.jpg) no-repeat 0 0;
-      top: 7.5rem;
-      bottom: 0;
+      // top: 7.5rem;
+      bottom: 380px;
       /* left: 0; */
-      right: -20vw;
+      right: -30vw;
       z-index: -1;
       /* outline: solid red 1px; */
       width: 900px;
