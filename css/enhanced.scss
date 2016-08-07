@@ -14,15 +14,31 @@ body {
   // background: linear-gradient(0deg, #e6e6e6, #0080ff);
   max-width: 100%;
 
-  &.homepage {
-    @include media-query(25em) { // 400px
-      background: url(img/willowtree_hi.jpg) no-repeat 71vw 0;
-      // background-size: 100vh;
+  &::before {
+    // @include media-query(25em) { // 400px
+      // content: '';
+      // position: absolute;
+      // background: url(img/willowtree_hi.jpg) no-repeat 71vw 0;
+
+      content: '';
+      position: absolute;
+      background: url(img/willowtree_hi.jpg) no-repeat 0 0;
+      top: 7.5rem;
+      bottom: 0;
+      /* left: 0; */
+      right: -20vw;
+      z-index: -1;
+      /* outline: solid red 1px; */
+      width: 900px;
+      background-size: cover;
+      height: 900px;
+      opacity: 0.8;
     }
-  }
+  // }
 }
 
 header {
+  background-color: rgba(255,255,255,.8);
   min-height: 11rem;
   display: flex;
   align-items: center;
@@ -62,10 +78,11 @@ main {
   // border: solid 2px rgba($red, $red, $red, $alpha);lighten($secondary, 30%);
   border-radius: 5px;
   margin-bottom: 1.5rem;
+  padding: 1em;
 
-  @include media-query(25em) { // 400px
-    padding: 1em;
-    width: 70%;
+  @include media-query(37.5em) { // 600px
+
+    width: 60%;
   }
 }
 
