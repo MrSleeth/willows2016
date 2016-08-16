@@ -33,7 +33,6 @@ body {
 }
 
 
-
 /**
 * Set `margin-bottom` to maintain vertical rhythm
 */
@@ -242,6 +241,7 @@ pre {
 }
 
 .header-title {
+  color: $primary;
   font-size: 2.5em;
 }
 
