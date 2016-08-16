@@ -28,10 +28,10 @@ collections:
     permalink: /philosophy-and-learning/:path/
   testimonials:
     output: true
-    permalink: /testimonials/:path/
+    permalink: /testimonials/
   forest-school:
     output: true
-    permalink: /forest-school/:path/
+    permalink: /forest-school/
   policies:
     output: true
     permalink: /policies/:path/
