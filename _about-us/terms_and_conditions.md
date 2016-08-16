@@ -1,9 +1,3 @@
----
-title: Terms and Conditions
-layout: page
-parent: true
----
-
 ## Age of Admittance
 
 Children are welcomed from 3 months to 5 years
