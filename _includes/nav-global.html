@@ -10,24 +10,15 @@
     {% assign section = col.label %}
 
     {% if section != "posts" %}
-      {% if section == "willows" %}
-        {% assign section = "About Willows" %}
-      {% endif %}
-      {% if section == "learning_and_development" %}
-        {% assign section = "Learning" %}
-      {% endif %}
         <li class="nav__item">
-          <a href="{{ col.label | replace: "_", "-" | prepend: site.baseurl | | downcase }}" class="nav-link nav-link--primary">{{ section | replace: "_", " " | capitalize }}</a>
-
-          {% comment %}
-          <ul class="sub-nav">
-            {% for page in site.[col.label] %}
-              <li><a href="{{ page.url | prepend: site.github.url }}" class="nav-link nav-link--secondary">{{ page.title }}</a></li>
-            {% endfor %}
-          </ul>
-          {% endcomment %}
+          <a href="{{ col.label | replace: "_", "-" | prepend: site.baseurl | | downcase }}" class="nav-link nav-link--primary">{{ section | replace: "-", " " | capitalize }}</a>
         </li>
       {% endif %}
     {% endfor %}
+    <li class="nav__item">
+      <a href="{{ site.github.url }}">
+        Contact Us
+      </a>
+    </li>
   </ul>
 </nav>

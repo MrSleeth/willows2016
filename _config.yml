@@ -20,27 +20,33 @@ exclude: ['source', Vagrantfile, Gemfile, Gemfile.lock, vhost.conf, README.md, p
 permalink: pretty
 
 collections:
-  parents:
+  about-us:
     output: true
-    permalink: /parents/:path/
+    permalink: /about-us/:path/
+  philosophy-and-learning:
+    output: true
+    permalink: /philosophy-and-learning/:path/
+  testimonials:
+    output: true
+    permalink: /testimonials/:path/
+  forest-school:
+    output: true
+    permalink: /forest-school/:path/
   policies:
     output: true
     permalink: /policies/:path/
-  learning_and_development:
+  sessions:
     output: true
-    permalink: /learning-and-development/:path/
-  willows:
+    permalink: /sessions/:path/
+  gallery:
     output: true
-    permalink: /willows/:path/
-  # rooms:
-  #   output: true
-  #   permanlink: /rooms/:path
+    permalink: /gallery/:path/
 
 defaults:
   -
     scope:
       path: ""
-      type: 'parents'
+      type: 'about-us'
     values:
       layout: "page"
   -
@@ -52,13 +58,13 @@ defaults:
   -
     scope:
       path: ""
-      type: 'learning_and_development'
+      type: 'philosophy-and-learning'
     values:
       layout: "page"
   -
     scope:
       path: ""
-      type: 'willows'
+      type: 'about-us'
     values:
       layout: "page"
   -
