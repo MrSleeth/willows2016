@@ -1,7 +1,7 @@
 <nav id="globalNav" class="nav-global l-container l-container--full">
   <ul class="primary-nav">
     <li class="nav__item">
-      <a href="{{ "/" | prepend: site.github.url }}">
+      <a href="{{ "/" | prepend: site.github.url }}" class="nav-link nav-link--primary">
         <span class="u-visually-hidden">Home</span>
         <svg class="icon icon-home2"><use xlink:href="#icon-home2"></use></svg>
       </a>
@@ -16,7 +16,7 @@
       {% endif %}
     {% endfor %}
     <li class="nav__item">
-      <a href="{{ site.github.url }}">
+      <a href="{{ site.github.url }}" class="nav-link nav-link--primary">
         Contact Us
       </a>
     </li>

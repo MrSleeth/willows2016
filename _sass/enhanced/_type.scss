@@ -1,6 +1,6 @@
-$e-headings: "verveine", sans-serif;
+$e-headings: "verveine", $heading-font-family;
 $e-body: "proxima-nova-soft", sans-serif;
-$e-body2: "ff-meta-serif-web-pro", serif;
+$e-body2: "ff-meta-serif-web-pro", $base-font-family;
 //
 // h1 {
 //   font-family: "verveine",sans-serif;
@@ -18,13 +18,8 @@ body {
   font-family: $e-body2;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.giga {
+h1, h2, h3, h4, h5, h6,
+.alpha, .beta, .gamma, .delta, .giga {
   font-family: $e-headings;
 }
 

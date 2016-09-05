@@ -4,14 +4,12 @@
   {% include head.html %}
 
   <body {% if page.bodyclass %}class="homepage"{% endif %}>
-
+    
   {% include icons.html %}
 
   {% include header.html %}
 
-  <div id="navPlaceholder">
-
-  </div>
+  <div id="navPlaceholder"></div>
 
   <main id="main" class="l-container l-container--full {% if page.collection %} l-flexgrid {% endif %}">
     {{ content }}

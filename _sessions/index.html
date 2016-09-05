@@ -7,28 +7,30 @@ layout: page
 {% assign fees = site.data.sessions-fees.fees %}
 
 <h2>Sessions</h2>
+
 {% for session in sessions %}
-<h3>{{ session[0] | capitalize }}</h3>
-<dl class="">
-  <dt>Start:</dt>
-  <dd>
-    <time>{{ session[1].start }}</time>
-  </dd>
-  <dt>Finish:</dt>
-  <dd>
-    <time>{{ session[1].finish }}</time>
-  </dd>
-</dl>
+  <h3>{{ session[0] | capitalize }}</h3>
+
+  <dl class="">
+    <dt>Start:</dt>
+    <dd>
+      <time>{{ session[1].start }}</time>
+    </dd>
+    <dt>Finish:</dt>
+    <dd>
+      <time>{{ session[1].finish }}</time>
+    </dd>
+  </dl>
 {% endfor %}
 
 <h2>Fees</h2>
 
 {% for fee in fees %}
-<h3>{{ fee[0] | capitalize }}</h3>
-  {% for item in fee[1] %}
-  <dl class="">
-    <dt>{{ item[0] | capitalize }}:</dt>
-    <dd>{{ item[1] | prepend: "£"}}</dd>
-  </dl>
+  <h3>{{ fee[0] | capitalize }}</h3>
+    {% for item in fee[1] %}
+    <dl class="">
+      <dt>{{ item[0] | capitalize }}:</dt>
+      <dd>{{ item[1] | prepend: "£"}}</dd>
+    </dl>
   {% endfor %}
 {% endfor %}
