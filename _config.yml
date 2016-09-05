@@ -37,7 +37,7 @@ collections:
     permalink: /policies/:path/
   sessions:
     output: true
-    permalink: /sessions/:path/
+    permalink: /sessions/
   gallery:
     output: true
     permalink: /gallery/:path/

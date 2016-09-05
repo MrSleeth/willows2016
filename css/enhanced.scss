@@ -18,31 +18,31 @@ body {
   // background: linear-gradient(0deg, #e6e6e6, #0080ff);
   max-width: 100%;
 
-  &::before {
+  // &::before {
     // @include media-query(25em) { // 400px
       // content: '';
       // position: absolute;
       // background: url(img/willowtree_hi.jpg) no-repeat 71vw 0;
 
-      content: '';
-      position: absolute;
-      background: url(img/willowtree_hi.jpg) no-repeat 0 0;
+      // content: '';
+      // position: absolute;
+      background: url(img/willowtree_hi.jpg) no-repeat 730px 110px; // TODO: NEEDS BREAKPOINTS
+      background-size: 770px;
       // top: 7.5rem;
-      bottom: 380px;
+      // bottom: 380px;
       /* left: 0; */
-      right: -30vw;
-      z-index: -1;
-      /* outline: solid red 1px; */
-      width: 900px;
-      background-size: cover;
-      height: 900px;
-      opacity: 0.8;
-    }
+      // right: -30vw;
+      // z-index: -1;
+      // /* outline: solid red 1px; */
+      // width: 900px;
+      // background-size: cover;
+      // height: 900px;
+      // opacity: 0.8;
+    // }
   // }
 }
 
 header {
-  background-color: rgba(255,255,255,.8);
   min-height: 11rem;
   display: flex;
   align-items: center;

@@ -1,0 +1,22 @@
+sessions:
+  morning:
+    start: "8:00"
+    finish: "13:00"
+  afternoon:
+    start: "13:00"
+    finish: "18:00"
+  full:
+    start: "7:45"
+    finish: "18:00"
+fees:
+  "0 to 2 years":
+    single: 24
+    full: 46
+    fulltime: 207
+  "2 to 5 years":
+    single: 20
+    full: 38
+    fulltime: 171
+  additional:
+    lunch: 2
+    tea: 1
