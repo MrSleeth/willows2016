@@ -10,13 +10,13 @@ sessions:
     finish: "18:00"
 fees:
   "0 to 2 years":
-    single: 24
-    full: 46
-    fulltime: 207
+    single session: 24
+    full day: 46
+    full time: 207
   "2 to 5 years":
-    single: 20
-    full: 38
-    fulltime: 171
+    single session: 20
+    full day: 38
+    full time: 171
   additional fees:
     lunch: 2
     tea: 1
