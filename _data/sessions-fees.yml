@@ -1,11 +1,11 @@
 sessions:
-  morning:
+  mornings:
     start: "8:00"
     finish: "13:00"
-  afternoon:
+  afternoons:
     start: "13:00"
     finish: "18:00"
-  full:
+  full day:
     start: "7:45"
     finish: "18:00"
 fees:
@@ -17,6 +17,6 @@ fees:
     single: 20
     full: 38
     fulltime: 171
-  additional:
+  additional fees:
     lunch: 2
     tea: 1

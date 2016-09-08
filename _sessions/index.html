@@ -8,10 +8,11 @@ layout: page
 
 <h2>Sessions</h2>
 
+<div class="">
 {% for session in sessions %}
   <h3>{{ session[0] | capitalize }}</h3>
 
-  <dl class="">
+  <dl>
     <dt>Start:</dt>
     <dd>
       <time>{{ session[1].start }}</time>
@@ -22,13 +23,13 @@ layout: page
     </dd>
   </dl>
 {% endfor %}
-
+</div>
 <h2>Fees</h2>
 
 {% for fee in fees %}
   <h3>{{ fee[0] | capitalize }}</h3>
     {% for item in fee[1] %}
-    <dl class="">
+    <dl>
       <dt>{{ item[0] | capitalize }}:</dt>
       <dd>{{ item[1] | prepend: "£"}}</dd>
     </dl>
