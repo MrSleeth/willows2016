@@ -42,11 +42,22 @@ body {
   // }
 }
 
-header {
+.site-head {
+  // TODO: handprint color: #8A539A ???
   min-height: 11rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+
+  &::before {
+    content: "";
+    display: block;
+    flex: 1;
+    background: url(http://sleeth-mac.local:6005/css/img/handprint.png) no-repeat;
+    background-size: 85%;
+    background-position: 0 center;
+    transform: rotate(-20deg);
+    padding-bottom: 50%;
+  }
 }
 
 .header-link {
@@ -56,6 +67,19 @@ header {
   &:visited {
     color: $secondary;
   }
+}
+
+.header-title {
+  flex: 1;
+  margin-bottom: 0;
+  text-align: left;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 3px #fff,
+    0 0 4px #fff,
+    0 0 5px #fff;
+    width: 50%;
 }
 
 main {
