@@ -16,11 +16,11 @@ layout: page
     <dl>
       <dt>Start:</dt>
       <dd>
-        <time>{{ session[1].start }}</time>
+        <time datetime="{{ session[1].start }}">{{ session[1].start | date: "%-I:%M %P"}}</time>
       </dd>
       <dt>Finish:</dt>
       <dd>
-        <time>{{ session[1].finish }}</time>
+        <time datetime="{{ session[1].finish }}">{{ session[1].finish | date: "%-I:%M %P"}}</time>
       </dd>
     </dl>
   </section>
