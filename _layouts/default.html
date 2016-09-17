@@ -3,8 +3,8 @@
 
   {% include head.html %}
 
-  <body {% if page.bodyclass %}class="homepage"{% endif %}>
-    
+  <body {% if page.bodyclass %}class="{{ page.bodyclass }}"{% endif %}>
+
   {% include icons.html %}
 
   {% include header.html %}
