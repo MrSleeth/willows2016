@@ -23,9 +23,9 @@ collections:
   about-us:
     output: true
     permalink: /about-us/:path/
-  philosophy-and-learning:
+  philosophy:
     output: true
-    permalink: /philosophy-and-learning/:path/
+    permalink: /philosophy/:path/
   testimonials:
     output: true
     permalink: /testimonials/
@@ -58,7 +58,7 @@ defaults:
   -
     scope:
       path: ""
-      type: 'philosophy-and-learning'
+      type: 'philosophy'
     values:
       layout: "page"
   -

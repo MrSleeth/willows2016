@@ -2,25 +2,8 @@
 layout: default
 ---
 
-<ul>
-  {% for col in site.collections %}
-  {% assign section = col.label %}
-
-  {% if section != "posts" %}
-    {% if section == "willows" %}
-      {% assign section = "About Willows" %}
-    {% endif %}
-    {% if section == "learning_and_development" %}
-      {% assign section = "Learning" %}
-    {% endif %}
-      <li>
-        <a href="#">{{ section | replace: "_", " " | capitalize }}</a>
-        <ul>
-          {% for page in site.[col.label] %}
-            <li><a href="{{ page.url | prepend: site.github.url }}">{{ page.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+{% for page in site.about-us %}
+  <p>
+    {{ page.title }}
+  </p>
+{% endfor %}
