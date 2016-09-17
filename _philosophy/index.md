@@ -1,6 +1,6 @@
 ---
 title: Philosophy
-#permalink: /philosophy/
+permalink: /philosophy/
 bodyclass: philosophy
 ---
 

@@ -10,10 +10,9 @@
 
   li {
     padding: 0;
-
     font-size: 1.5em;
-
     border: none !important;
+
     &:last-child {
       border: none;
     }
@@ -25,6 +24,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     font-family: $e-headings;
+    position: relative;
+    z-index: 2;
     //
 
   // > li

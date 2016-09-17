@@ -184,11 +184,13 @@ blockquote {
 
 footer {
   border-top: solid 30px $primary;
-  border-image: url(img/grass_ph.png) 100% 30 repeat;
-  border-image-outset: .9;
+  border-image: url(img/grass_ph.png) 90% 30 repeat;
+  border-image-outset: 20px;
 
   padding-top: 1.5em !important;
   padding-bottom: 1.5em !important;
+  position: relative;
+  z-index: 10;
 }
 
 .footer-title {
@@ -243,27 +245,35 @@ dd + dd::before {
 	margin-left: -.25em;
 }
 
-.philosophy ol {
+.philosophy ol,
+.box-out {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: stretch;
   list-style-position: inside;
   margin-left: 0;
 
-  > li {
+  > li,
+  .box-out__item {
     background-color: lighten($primary, 50%);
     border: solid 2px lighten($primary, 30%);
     border-radius: 5px;
-    flex: 1 0 12.5em; // 200px
     padding: 1em;
+    margin: 0 .5em 1.5rem .5em;
+  }
+
+  > li {
+    flex: 1 0 12.5em; // 200px
 
     @include media-query(34.5em) { // 552px
-
       &:nth-child(odd) {
-        margin-right: 1.5em;
+        // margin-right: 1.5em;
       }
     }
+  }
 
-
+  .box-out__item {
+    flex: 1 0 9.375em; // 150px
   }
 }
