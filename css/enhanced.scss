@@ -17,17 +17,31 @@ html {
 body {
   // background: linear-gradient(0deg, #e6e6e6, #0080ff);
   max-width: 100%;
+  position: relative;
 
-  // &::before {
+  @include media-query(59.375em) { // 950px
+    // background: url(img/willowtree_hi.jpg) no-repeat 1100px calc(100%  970px); // TODO: NEEDS BREAKPOINTS
+
+    &::before {
+      content: '';
+      position: absolute;
+      background: url(img/willowtree_hi.jpg) no-repeat 900px bottom;
+      width: 100%;
+      height: calc(100% - 455px);
+      z-index: -1;
+      opacity: .8;
+    }
+  }
     // @include media-query(25em) { // 400px
+    // }
       // content: '';
       // position: absolute;
       // background: url(img/willowtree_hi.jpg) no-repeat 71vw 0;
 
       // content: '';
       // position: absolute;
-      background: url(img/willowtree_hi.jpg) no-repeat 730px 110px; // TODO: NEEDS BREAKPOINTS
-      background-size: 770px;
+      // background: url(img/willowtree_hi.jpg) no-repeat 730px 110px; // TODO: NEEDS BREAKPOINTS
+      // background-size: 770px;
       // top: 7.5rem;
       // bottom: 380px;
       /* left: 0; */
@@ -44,19 +58,19 @@ body {
 
 .site-head {
   // TODO: handprint color: #8A539A ???
-  min-height: 11rem;
+  // min-height: 11rem;
   display: flex;
   align-items: center;
 
   &::before {
-    content: "";
-    display: block;
-    flex: 1;
-    background: url(http://sleeth-mac.local:6005/css/img/handprint.png) no-repeat;
-    background-size: 85%;
-    background-position: 0 center;
-    transform: rotate(-20deg);
-    padding-bottom: 50%;
+      // content: "";
+      // display: block;
+      // flex: 1;
+      // // background: url(img/handprint.png) no-repeat;
+      // background-size: 85%;
+      // background-position: 0 center;
+      // transform: rotate(-20deg);
+      // padding-bottom: 50%;
   }
 }
 
@@ -186,7 +200,6 @@ footer {
   border-top: solid 30px $primary;
   border-image: url(img/grass_ph.png) 90% 30 repeat;
   border-image-outset: 20px;
-
   padding-top: 1.5em !important;
   padding-bottom: 1.5em !important;
   position: relative;
@@ -275,5 +288,24 @@ dd + dd::before {
 
   .box-out__item {
     flex: 1 0 9.375em; // 150px
+  }
+}
+
+.l-fixed-table {
+  width: 100%;
+  table-layout: fixed;
+  text-align: left;
+
+  tr {
+    vertical-align: top;
+  }
+
+  th,
+  td {
+    padding: .5em;
+  }
+
+  th {
+    border-bottom: solid 1px lighten($secondary, 20%);
   }
 }

@@ -1,11 +1,9 @@
-<aside class="l-flexgrid__aside">
-  <nav>
-    <h2>Also in this section...</h2>
-    <ul>
+<aside class="l-flexgrid__aside box-out">
+  <nav class="nav-secondary box-out__item">
+    <h2 class="nav-secondary__title">Also in this section...</h2>
+    <ul class="nav-secondary__links">
     {% for doc in site.[page.collection] | sort: doc.order %}
-      {{ doc.order }}
         <li><a href="{{ doc.url | prepend: site.github.url }}">{{ doc.title }}</a></li>
-
     {% endfor %}
     </ul>
   </nav>

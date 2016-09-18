@@ -38,9 +38,9 @@ collections:
   sessions:
     output: true
     permalink: /sessions/
-  gallery:
-    output: true
-    permalink: /gallery/:path/
+  # gallery:
+  #   output: true
+  #   permalink: /gallery/:path/
 
 defaults:
   -
