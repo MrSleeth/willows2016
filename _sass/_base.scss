@@ -41,6 +41,7 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 main li,
 .alpha, .beta, .gamma, .delta, .giga,
+.box-out, .box-out__item,
 %vertical-rhythm {
   margin-bottom: $base-font-size * $base-line-height; // fallback
   margin-bottom: $spacing-unit;

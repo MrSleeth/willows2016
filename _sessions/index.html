@@ -8,9 +8,9 @@ layout: page
 
 <h2>Session times</h2>
 
-<div class="l-flexgrid">
+<div class="l-flexgrid box-out">
 {% for session in sessions %}
-  <section>
+  <section class="box-out__item">
     <h3>{{ session[0] | capitalize }}</h3>
 
     <dl>
@@ -29,9 +29,9 @@ layout: page
 
 <h2>Fees</h2>
 
-<div class="l-flexgrid">
+<div class="l-flexgrid box-out">
 {% for fee in fees %}
-  <section>
+  <section class="box-out__item">
     <h3>{{ fee[0] | capitalize }}</h3>
     <dl>
       {% for item in fee[1] %}
