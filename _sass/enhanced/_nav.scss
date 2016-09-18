@@ -81,3 +81,14 @@
     padding-top: 0;
   }
 }
+
+.nav-secondary {
+  &__title {
+    line-height: 1.1;
+  }
+
+  &__links {
+    margin: 0;
+    list-style-type: none;
+  }
+}

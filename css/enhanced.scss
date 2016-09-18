@@ -290,3 +290,22 @@ dd + dd::before {
     flex: 1 0 9.375em; // 150px
   }
 }
+
+.l-fixed-table {
+  width: 100%;
+  table-layout: fixed;
+  text-align: left;
+
+  tr {
+    vertical-align: top;
+  }
+
+  th,
+  td {
+    padding: .5em;
+  }
+
+  th {
+    border-bottom: solid 1px lighten($secondary, 20%);
+  }
+}
