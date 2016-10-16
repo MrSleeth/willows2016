@@ -252,8 +252,9 @@ pre {
 .btn-menu {
   display: inline-block;
   padding: .5em;
-  background: $primary;
+  background: #fff;
   border: solid 2px $secondary;
+  border-radius: 5px;
   text-transform: uppercase;
 
   &:hover,
@@ -263,6 +264,10 @@ pre {
     color: $text-color-inverse;
     text-decoration: none;
   }
+}
+
+button.btn-menu {
+  display: none;
 }
 
 /**

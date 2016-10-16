@@ -152,7 +152,6 @@ main {
 
   &__aside {
     flex: 0 1 15.625rem; // 250px
-    background-color: rgba(255,255,255,.8);
     border-radius: 5px;
     padding: 0 1em;
 
@@ -308,4 +307,9 @@ dd + dd::before {
   th {
     border-bottom: solid 1px lighten($secondary, 20%);
   }
+}
+
+.is-closed {
+  max-height: 0;
+  // overflow: hidden;
 }

@@ -1,6 +1,7 @@
 ---
 title: The Hedgehog Room & Squirrel Room
 order: 1
+gallery: hedgehog-squirrel
 ---
 
 Our Hedgehog and Squirrel Rooms are part of one larger room and can be separated by a partition gate. Children between the two rooms are aged from 3 months to around 2 years old. Having the two rooms together follows the Montessori ethos, allowing the younger and older children to mix and socialise which greatly aids their personal, social and emotional development and allows the younger ones to observe and learn from example.

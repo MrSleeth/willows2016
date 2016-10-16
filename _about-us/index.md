@@ -1,5 +1,5 @@
 ---
-title: About Willows
+title: About Us
 layout: page
 parent: true
 permalink: /about-us/

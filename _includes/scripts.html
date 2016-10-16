@@ -1,15 +1,7 @@
-<script>
-
-(function globalNav() {
-
-  var nav = document.querySelector("#globalNav");
-  var main = document.getElementById("main");
-  var navPlaceholder = document.getElementById("navPlaceholder");
-  var parentEl = document.getElementById("navPlaceholder").parentNode;
-  var navCopy = nav.cloneNode(true);
-  nav.remove();
-  parentEl.replaceChild(navCopy, navPlaceholder);
-
-})();
-
-</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+{% if page.gallery %}
+  <script src="/js/responsive-carousel.min.js"></script>
+  <link href="/css/responsive-carousel.css" rel="stylesheet">
+  <link href="/css/responsive-carousel.slide.css" rel="stylesheet">
+{% endif %}
+<script src="/js/script.js" charset="utf-8"></script>
