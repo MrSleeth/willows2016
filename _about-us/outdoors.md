@@ -1,6 +1,7 @@
 ---
 title: Outdoors
 order: 4
+gallery: outdoors
 ---
 
 At Willows Montessori we benefit from an extensive and fully secure outdoor area, including two garden areas at the rear of the nursery.

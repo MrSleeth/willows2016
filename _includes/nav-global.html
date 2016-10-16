@@ -1,9 +1,9 @@
 <nav id="globalNav" class="nav-global l-container l-container--full">
-  <ul class="primary-nav">
+  <button class="btn-menu js-show" href="#globalNav">Menu</button>
+  <ul class="primary-nav js-hide">
     <li class="nav__item">
       <a href="{{ "/" | prepend: site.github.url }}" class="nav-link nav-link--primary">
         <svg class="icon icon-home2"><use xlink:href="#icon-home2"></use></svg>
-        <span class="u-visually-hidden">Home</span>
       </a>
     </li>
     {% for col in site.collections %}
@@ -16,7 +16,7 @@
       {% endif %}
     {% endfor %}
     <li class="nav__item">
-      <a href="#contact" class="nav-link nav-link--primary">
+      <a href="/contact/" class="nav-link nav-link--primary">
         Contact Us
       </a>
     </li>

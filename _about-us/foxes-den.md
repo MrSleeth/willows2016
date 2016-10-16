@@ -1,6 +1,7 @@
 ---
 title: The Foxes Den
 order: 2
+gallery: foxes
 ---
 
 The Foxes Den is equipped for a maximum of twelve children per session, aged from 2 to around 3 years of age, and our staff to child ratio is 1:4.

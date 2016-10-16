@@ -1,4 +1,13 @@
-.btn-menu {
+button.btn-menu {
+  display: block;
+  margin: 1em 0;
+
+  @include media-query(33.25em) { // 532px
+    display: none;
+  }
+}
+
+a.btn-menu {
   display: none;
 }
 
@@ -25,7 +34,17 @@
     flex-wrap: wrap;
     font-family: $e-headings;
     position: relative;
+    max-height: 800px;
     z-index: 2;
+    overflow: hidden;
+    will-change: max-height;
+    transition: max-height .3s ease-in-out;
+
+    @include media-query(33.25em) { // 532px
+      &.is-closed {
+        max-height: 200px;
+      }
+    }
     //
 
   // > li

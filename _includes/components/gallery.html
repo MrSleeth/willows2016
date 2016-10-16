@@ -1,0 +1,12 @@
+{% assign folder = include.folder %}
+{% assign images = site.static_files | where: "extname", ".JPG" %}
+
+<div class="carousel" data-transition="slide">
+  {% for img in images %}
+  {% if img.path contains folder %}
+  <div>
+      <img src="{{ img.path }}" alt="" />
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
