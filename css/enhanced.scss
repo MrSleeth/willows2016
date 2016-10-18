@@ -312,7 +312,7 @@ dd + dd::before {
 .c-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   list-style-type: none;
   margin-left: 0;
 
@@ -320,6 +320,10 @@ dd + dd::before {
     flex: 1 0 7.5em;
     margin-left: .5em;
     margin-right: .5em;
+
+    @include media-query(36em) {
+      flex-grow: 0;
+    }
     // &:nth-of-type(odd) {
     //   margin-right: 1em;
     // }
