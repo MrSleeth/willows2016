@@ -1,3 +1,7 @@
-_site/
-.sass-cache/
+_site
+.sass-cache
 .jekyll-metadata
+.vagrant
+.box
+.DS_Store
+photos to add

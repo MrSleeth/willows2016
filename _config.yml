@@ -1,0 +1,75 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Willows Montessori Nursery
+email: willowsmontessorinursery@gmail.com
+description: >
+  Willows Montessori Nursery is a small, friendly, child centred Nursery set in the beautiful surroundings of Old Ryton Village, Gateshead.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://willowsmontessorinursery.net" # the base hostname & protocol for your site
+host: 0.0.0.0
+
+# Build settings
+markdown: kramdown
+exclude: ['source', Vagrantfile, Gemfile, Gemfile.lock, vhost.conf, README.md, provision.sh]
+permalink: pretty
+
+collections:
+  about-us:
+    output: true
+    permalink: /about-us/:path/
+  philosophy:
+    output: true
+    permalink: /philosophy/:path/
+  testimonials:
+    output: true
+    permalink: /testimonials/
+  forest-school:
+    output: true
+    permalink: /forest-school/
+  policies:
+    output: true
+    permalink: /policies/:path/
+  sessions:
+    output: true
+    permalink: /sessions/
+  # gallery:
+  #   output: true
+  #   permalink: /gallery/:path/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: 'about-us'
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: 'policies'
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: 'philosophy'
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: 'about-us'
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: 'rooms'
+    values:
+      layout: "page"

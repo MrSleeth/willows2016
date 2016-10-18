@@ -1,0 +1,30 @@
+{% comment %}
+# Responsive img tag
+
+Rules:
+
+Assumes min 3 image crops, max 4
+File names must be appended _S, _M, _L, _XL
+Widths: 300, 600, 900, 1200
+Sizes are up to you but should be in vw
+
+{% endcomment%}
+
+{% if include.sizes %}
+  {% assign sizes = "" %}
+{% else %}
+  {% assign sizes = "100vw" %}
+{% endif %}
+
+{{ site.images }}
+
+{% for img in site.images %}
+  <p>
+    TEST??
+  </p>
+{% endfor %}
+
+
+
+
+<img srcset="{{}}" sizes="{{ sizes }}" src="{{ include.file | append: '.jpg' }}" alt="{{ include.alt }}" />

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body {% if page.bodyclass %}class="{{ page.bodyclass }}"{% endif %}>
+
+  {% include icons.html %}
+
+  {% include header.html %}
+
+  <main id="main" class="l-container l-container--full {% if page.collection %} l-flexgrid {% endif %}">
+    {{ content }}
+  </main>
+
+  {% include nav-global.html %}
+
+  {% include footer.html %}
+
+  {% include scripts.html %}
+
+  </body>
+
+</html>

@@ -1,0 +1,24 @@
+<nav id="globalNav" class="nav-global l-container l-container--full">
+  <button class="btn-menu js-show" href="#globalNav">Menu</button>
+  <ul class="primary-nav js-hide">
+    <li class="nav__item">
+      <a href="{{ "/" | prepend: site.github.url }}" class="nav-link nav-link--primary">
+        <svg class="icon icon-home2"><use xlink:href="#icon-home2"></use></svg>
+      </a>
+    </li>
+    {% for col in site.collections %}
+    {% assign section = col.label %}
+
+    {% if section != "posts" %}
+        <li class="nav__item">
+          <a href="{{ col.label | replace: "_", "-" | prepend: site.baseurl | | downcase }}" class="nav-link nav-link--primary">{{ section | replace: "-", " " | capitalize }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    <li class="nav__item">
+      <a href="/contact/" class="nav-link nav-link--primary">
+        Contact Us
+      </a>
+    </li>
+  </ul>
+</nav>

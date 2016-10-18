@@ -1,0 +1,315 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@import
+        "vars",
+        "functions",
+        "mixins",
+        "enhanced/type",
+        "enhanced/nav";
+
+html {
+  position: relative;
+}
+
+body {
+  // background: linear-gradient(0deg, #e6e6e6, #0080ff);
+  max-width: 100%;
+  position: relative;
+
+  @include media-query(59.375em) { // 950px
+    // background: url(img/willowtree_hi.jpg) no-repeat 1100px calc(100%  970px); // TODO: NEEDS BREAKPOINTS
+
+    &::before {
+      content: '';
+      position: absolute;
+      background: url(img/willowtree_hi.jpg) no-repeat 900px bottom;
+      width: 100%;
+      height: calc(100% - 455px);
+      z-index: -1;
+      opacity: .8;
+    }
+  }
+    // @include media-query(25em) { // 400px
+    // }
+      // content: '';
+      // position: absolute;
+      // background: url(img/willowtree_hi.jpg) no-repeat 71vw 0;
+
+      // content: '';
+      // position: absolute;
+      // background: url(img/willowtree_hi.jpg) no-repeat 730px 110px; // TODO: NEEDS BREAKPOINTS
+      // background-size: 770px;
+      // top: 7.5rem;
+      // bottom: 380px;
+      /* left: 0; */
+      // right: -30vw;
+      // z-index: -1;
+      // /* outline: solid red 1px; */
+      // width: 900px;
+      // background-size: cover;
+      // height: 900px;
+      // opacity: 0.8;
+    // }
+  // }
+}
+
+.site-head {
+  // TODO: handprint color: #8A539A ???
+  // min-height: 11rem;
+  display: flex;
+  align-items: center;
+
+  &::before {
+      // content: "";
+      // display: block;
+      // flex: 1;
+      // // background: url(img/handprint.png) no-repeat;
+      // background-size: 85%;
+      // background-position: 0 center;
+      // transform: rotate(-20deg);
+      // padding-bottom: 50%;
+  }
+}
+
+.header-link {
+  color: $secondary;
+  margin-bottom: 0;
+
+  &:visited {
+    color: $secondary;
+  }
+}
+
+.header-title {
+  flex: 1;
+  margin-bottom: 0;
+  text-align: left;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 3px #fff,
+    0 0 4px #fff,
+    0 0 5px #fff;
+    width: 50%;
+}
+
+main {
+  margin-bottom: 3rem;
+}
+
+.l-container {
+  padding: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  &--full {
+    @include media-query(62.5em) {
+      padding-left: calc(50% - 30.25rem); // 968px
+      padding-right: calc(50% - 30.25rem); // 968px
+    }
+  }
+}
+
+.l-grid-60 {
+  @include media-query(25em) { // 400px
+    width: 60%;
+  }
+}
+
+.l-grid-70 {
+  background-color: rgba(255,255,255,.8);
+  // border: solid 2px rgba($red, $red, $red, $alpha);lighten($secondary, 30%);
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  padding: 1em;
+
+  @include media-query(37.5em) { // 600px
+
+    width: 60%;
+  }
+}
+
+.l-centred {
+  margin: auto;
+}
+
+.l-flexgrid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  &__main {
+    flex: 3 1 29.375rem; // 470px
+    max-width: 40.625rem; // 650px
+    background-color: rgba(255,255,255,.8);
+    border-radius: 5px;
+    padding: 0 1em;
+  }
+
+  &__aside {
+    flex: 0 1 15.625rem; // 250px
+    border-radius: 5px;
+    padding: 0 1em;
+
+    @include media-query(46.875em) { // 750px
+      margin-left: 5.6%;
+    }
+  }
+}
+
+blockquote {
+  border: none;
+  margin-bottom: 3rem;
+
+  @include media-query(28.125em) { // 450px
+    padding: 0 2em;
+    // position: relative;
+  }
+
+
+  &::before,
+  &::after {
+    // position: absolute;
+    display: block;
+  }
+
+  &::before {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="#6b6038"><path d="M7.031 14a7 7 0 1 1-7 7L0 20C0 12.268 6.268 6 14 6v4a9.934 9.934 0 0 0-7.071 2.929 10.24 10.24 0 0 0-.995 1.157A7.081 7.081 0 0 1 7.031 14zm18 0a7 7 0 1 1-7 7L18 20c0-7.732 6.268-14 14-14v4a9.934 9.934 0 0 0-7.071 2.929 10.24 10.24 0 0 0-.995 1.157A7.09 7.09 0 0 1 25.031 14z"/></svg>');
+
+    @include media-query(28.125em) { // 450px
+      margin-left: -2em;
+    }
+  }
+
+  &::after {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="#6b6038"><path d="M25 20a7 7 0 1 1 7-7l.031 1c0 7.732-6.268 14-14 14v-4a9.934 9.934 0 0 0 7.071-2.929c.364-.364.695-.75.995-1.157A7.081 7.081 0 0 1 25 20zM7 20a7 7 0 1 1 7-7l.031 1c0 7.732-6.268 14-14 14v-4a9.934 9.934 0 0 0 7.071-2.929c.364-.364.695-.75.995-1.157A7.081 7.081 0 0 1 7 20z"/></svg>');
+    text-align: right;
+
+    @include media-query(28.125em) { // 450px
+      margin-right: -2em;
+    }
+  }
+}
+
+footer {
+  border-top: solid 30px $primary;
+  border-image: url(img/grass_ph.png) 90% 30 repeat;
+  border-image-outset: 20px;
+  padding-top: 1.5em !important;
+  padding-bottom: 1.5em !important;
+  position: relative;
+  z-index: 10;
+}
+
+.footer-title {
+  @include media-query(26.25em) { // 420px
+    float: right;
+  }
+}
+
+.footer-link {
+
+  &:visited,
+  &:hover {
+    color: $grey-color-light;
+  }
+}
+
+.logo {
+  border-radius: 10px;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+article a {
+  text-decoration: underline;
+}
+
+// Shamelessly pinched from Lea Verou: http://dabblet.com/gist/7eb242f4e8f078cadbca
+dt, dd {
+	display: inline;
+	margin: 0;
+}
+
+dd {
+	font-weight: 600;
+}
+
+dd + dt::before {
+	content: "\A";
+	white-space: pre;
+}
+
+dd + dd::before {
+	content: ', ';
+	font-weight: normal;
+	margin-left: -.25em;
+}
+
+.philosophy ol,
+.box-out {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  list-style-position: inside;
+  margin-left: 0;
+
+  > li,
+  .box-out__item {
+    background-color: lighten($primary, 50%);
+    border: solid 2px lighten($primary, 30%);
+    border-radius: 5px;
+    padding: 1em;
+    margin: 0 .5em 1.5rem .5em;
+  }
+
+  > li {
+    flex: 1 0 12.5em; // 200px
+
+    @include media-query(34.5em) { // 552px
+      &:nth-child(odd) {
+        // margin-right: 1.5em;
+      }
+    }
+  }
+
+  .box-out__item {
+    flex: 1 0 9.375em; // 150px
+  }
+}
+
+.l-fixed-table {
+  width: 100%;
+  table-layout: fixed;
+  text-align: left;
+
+  tr {
+    vertical-align: top;
+  }
+
+  th,
+  td {
+    padding: .5em;
+  }
+
+  th {
+    border-bottom: solid 1px lighten($secondary, 20%);
+  }
+}
+
+.is-closed {
+  max-height: 0;
+  // overflow: hidden;
+}

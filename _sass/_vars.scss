@@ -1,0 +1,31 @@
+// Our variables
+$base-font-family: Georgia, Times, "Times New Roman", serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$heading-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$small-font-size:  $base-font-size * .875;
+$base-line-height: 1.5;
+
+$spacing-unit:     $base-line-height * 1rem;
+
+// COLOURS
+$primary: #809a53; //#688b7a;
+$secondary: #6b6038; //#7b6a58; // TODO: Colour match
+$tertiary: #821f29;
+$orange: #d46600;
+$yellow: #f6e03f;
+
+$text-color:       #111;
+$text-color-inverse: invert($text-color);
+$background-color: #fdfdfd;
+$brand-color:      $primary;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
