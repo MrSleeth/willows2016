@@ -18,7 +18,9 @@ ready(function() {
     Storage.addPage();
   }
 
-  $( ".carousel" ).carousel();
+  if ($(".carousel").length > 0) {
+    $( ".carousel" ).carousel();
+  }
 
 });
 
