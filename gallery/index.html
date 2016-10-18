@@ -1,0 +1,18 @@
+---
+title: Gallery
+layout: page
+---
+
+<p>
+  Select an image from the list below to see it full-size.
+</p>
+
+{% assign images = site.static_files | where: "extname", ".jpg" %}
+
+<ul class="c-gallery">
+{% for tn in images %}
+  {% if tn.path contains "_tn" %}
+    <li class="c-gallery__tn"><a href="{{ tn.path | remove: "_tn" }}"><img src="{{ tn.path }}" alt="" /></a></li>
+  {% endif %}
+{% endfor %}
+</ul>
