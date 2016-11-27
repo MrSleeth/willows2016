@@ -1,0 +1,7 @@
+{% assign img = site.static_files | where: "basename", "fs_tree" %}
+{% for x in site.static_files %}
+  {% if x.path contains include.filename %}
+    {% assign img = x.path %}
+  {% endif %}
+{% endfor %}
+<img src="{{ img }}" alt="{{ include.description }}">

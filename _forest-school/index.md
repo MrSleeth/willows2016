@@ -3,7 +3,7 @@ title: Forest School
 layout: page
 ---
 
-![]({{ "/img/fs_tree.jpg" | prepend: site.github.url }})
+{% include image.html filename="fs_tree" description="" %}
 
 We run regular Forest School sessions for the older children in our nursery and have 3 qualified Forest School Leaders on staff.
 
