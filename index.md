@@ -3,7 +3,7 @@ layout: homepage
 bodyclass: homepage
 ---
 
-# Welcome to Willows
+# Welcome to Willows!
 
 Willows Montessori Nursery is a small, friendly, child-centred nursery set in the beautiful surroundings of Old Ryton Village. Located within the Community Centre building we provide high quality full and part-time care for children aged from birth to five years and we have a distinguished reputation amongst parents and local schools.
 
