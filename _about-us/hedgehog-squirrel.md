@@ -1,5 +1,5 @@
 ---
-title: The Hedgehog Room & Squirrel Room
+title: The Hedgehog & Squirrel Room
 order: 1
 gallery: hedgehog-squirrel
 ---
@@ -10,8 +10,7 @@ Our Hedgehog and Squirrel Rooms are part of one larger room and can be separated
 
 Our Hedgehog Room is equipped for a maximum of six children per session, aged from 3 months to around 1 year, and our staff to child ratio is 1:3.
 
-Our Hedgehog Room is designed specifically for babies, with cosy areas for nap times and tummy time play, and areas for crawlers and early walkers to explore.
-We have a wide variety of treasure baskets to explore and staff provide a range of sensory activities suitable to this age range.
+Our Hedgehog Room is designed specifically for babies, with cosy areas for nap times and tummy time play, and areas for crawlers and early walkers to explore.We have a wide variety of treasure baskets to explore and staff provide a range of sensory activities suitable to this age range.
 
 ## Squirrel Room
 
