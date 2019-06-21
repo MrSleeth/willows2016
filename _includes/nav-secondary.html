@@ -5,7 +5,7 @@
       {% assign docs = site.[page.collection] | sort: order %}
     {% for doc in docs %}
       {% unless doc.title == page.title %}
-        <li><a href="{{ doc.url | prepend: site.github.url }}">{{ doc.title }}</a></li>
+        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
       {% endunless %}
     {% endfor %}
     </ul>
