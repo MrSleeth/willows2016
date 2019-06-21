@@ -10,38 +10,38 @@ collections:
     slug: ""
     fields:
       - {}
-- name: "philosophy"
-    label: "Philosophy"
-    folder: "_philosophy"
-    create: true
-    slug: ""
-    fields:
-      - {}
-- name: "testimonials"
-    label: "Testimonials"
-    folder: "_testimonials"
-    create: true
-    slug: ""
-    fields:
-      - {}
-- name: "forest-school"
-    label: "Forest School"
-    folder: "_forest-school"
-    create: true
-    slug: ""
-    fields:
-      - {} 
-- name: "policies"
-    label: "policies"
-    folder: "_policies"
-    create: true
-    slug: ""
-    fields:
-      - {}
-- name: "sessions"
-    label: "Sessions"
-    folder: "_sessions"
-    create: true
-    slug: ""
-    fields:
-      - {}
+  - name: "philosophy"
+      label: "Philosophy"
+      folder: "_philosophy"
+      create: true
+      slug: ""
+      fields:
+        - {}
+  - name: "testimonials"
+      label: "Testimonials"
+      folder: "_testimonials"
+      create: true
+      slug: ""
+      fields:
+        - {}
+  - name: "forest-school"
+      label: "Forest School"
+      folder: "_forest-school"
+      create: true
+      slug: ""
+      fields:
+        - {} 
+  - name: "policies"
+      label: "policies"
+      folder: "_policies"
+      create: true
+      slug: ""
+      fields:
+        - {}
+  - name: "sessions"
+      label: "Sessions"
+      folder: "_sessions"
+      create: true
+      slug: ""
+      fields:
+        - {}
