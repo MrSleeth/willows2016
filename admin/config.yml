@@ -7,41 +7,45 @@ collections:
     label: "About Us"
     folder: "_about-us"
     create: true
-    slug: ""
+    slug: "{{ slug }}"
     fields:
-      - {}
-  - name: "philosophy"
-    label: "Philosophy"
-    folder: "_philosophy"
-    create: true
-    slug: ""
-    fields:
-      - {}
-  - name: "testimonials"
-    label: "Testimonials"
-    folder: "_testimonials"
-    create: true
-    slug: ""
-    fields:
-      - {}
-  - name: "forest-school"
-    label: "Forest School"
-    folder: "_forest-school"
-    create: true
-    slug: ""
-    fields:
-      - {} 
-  - name: "policies"
-    label: "policies"
-    folder: "_policies"
-    create: true
-    slug: ""
-    fields:
-      - {}
-  - name: "sessions"
-    label: "Sessions"
-    folder: "_sessions"
-    create: true
-    slug: ""
-    fields:
-      - {}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Order", name: "order", widget: "number"}
+      - {label: "Gallery", name: "gallery", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  # - name: "philosophy"
+  #   label: "Philosophy"
+  #   folder: "_philosophy"
+  #   create: true
+  #   slug: ""
+  #   fields:
+  #     - {}
+  # - name: "testimonials"
+  #   label: "Testimonials"
+  #   folder: "_testimonials"
+  #   create: true
+  #   slug: ""
+  #   fields:
+  #     - {}
+  # - name: "forest-school"
+  #   label: "Forest School"
+  #   folder: "_forest-school"
+  #   create: true
+  #   slug: ""
+  #   fields:
+  #     - {} 
+  # - name: "policies"
+  #   label: "policies"
+  #   folder: "_policies"
+  #   create: true
+  #   slug: ""
+  #   fields:
+  #     - {}
+  # - name: "sessions"
+  #   label: "Sessions"
+  #   folder: "_sessions"
+  #   create: true
+  #   slug: ""
+  #   fields:
+  #     - {}
