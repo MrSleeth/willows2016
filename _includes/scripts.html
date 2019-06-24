@@ -5,3 +5,17 @@
   <link href="/css/responsive-carousel.slide.css" rel="stylesheet">
 {% endif %}
 <script src="/js/script.js" charset="utf-8"></script>
+
+{% if page.bodyclass == "homepage" %}
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+{% endif %}
