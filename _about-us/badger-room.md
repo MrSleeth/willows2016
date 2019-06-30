@@ -1,7 +1,6 @@
 ---
 title: The Badger Room
 order: 3
-test: xxx
 gallery: badger
 newgallery:
   - Badger_1.jpg
