@@ -20,6 +20,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Order", name: "order", widget: "number"}
       - {label: "Gallery", name: "gallery", widget: "string"}
+      - {label: "Gallery2", name: "new-gallery", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "philosophy"
     label: "Philosophy"
