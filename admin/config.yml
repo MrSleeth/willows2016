@@ -12,9 +12,7 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
   - name: "about-us"
     label: "About Us"
-    folder: "_about-us"
-    create: true
-    slug: "{{ slug }}"
+    file: "_about-us/badger-room.md"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string"}
