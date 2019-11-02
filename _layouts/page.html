@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign col = site.[page.collection] %}
+{% assign col = site[page.collection] %}
 
 <article class="l-flexgrid__main {% if col.size <= 1 or col == nil %} l-centred {% endif %}">
   <h1>{{ page.title }}</h1>
