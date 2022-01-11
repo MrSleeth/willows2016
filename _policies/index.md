@@ -13,7 +13,7 @@ Willows Montessori Nursery welcomes any child and adult and does not discriminat
 
 ## Complaints Policy
 
-If at any time you feel there is a problem please speak to a member of staff who you feel can appropriately deal with it, for example your child’s Key Worker, Jenni Cummings the Nursery Manager or Ethel Mills the Nursery Principal.
+If at any time you feel there is a problem please speak to a member of staff who you feel can appropriately deal with it, for example your child’s Key Worker, or the Nursery Managers Jenni Cummings and Linzi Gilmour.
 
 If you do not feel we have dealt with your problem to your satisfaction you may wish to contact OFSTED at the address below:
 

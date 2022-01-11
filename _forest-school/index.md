@@ -3,9 +3,9 @@ title: Forest School
 layout: page
 ---
 
-![]({{ "/img/fs_tree.jpg" | prepend: site.github.url }})
+{% include image.html filename="fs_tree" description="" %}
 
-We run regular Forest School sessions for the older children in our nursery and have 3 qualified Forest School Leaders on staff.
+We run regular Forest School sessions for the older children in our nursery and have 2 qualified Forest School Leaders on staff.
 
 [Forest Schools](http://www.forestschoolassociation.org) originated in Scandinavia in the 1950s and were based on an idea that considers children’s contact with nature to be extremely important from a very early age.
 

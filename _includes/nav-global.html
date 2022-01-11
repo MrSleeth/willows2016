@@ -2,7 +2,7 @@
   <button class="btn-menu js-show" href="#globalNav">Menu</button>
   <ul class="primary-nav js-hide">
     <li class="nav__item">
-      <a href="{{ "/" | prepend: site.github.url }}" class="nav-link nav-link--primary">
+      <a href="{{ "/" }}" class="nav-link nav-link--primary">
         <svg class="icon icon-home2"><use xlink:href="#icon-home2"></use></svg>
       </a>
     </li>
@@ -11,7 +11,7 @@
 
     {% if section != "posts" %}
         <li class="nav__item">
-          <a href="{{ col.label | replace: "_", "-" | prepend: site.baseurl | | downcase }}" class="nav-link nav-link--primary">{{ section | replace: "-", " " | capitalize }}</a>
+          <a href="{{ col.label | replace: "_", "-" | prepend: "/" | | downcase }}" class="nav-link nav-link--primary">{{ section | replace: "-", " " | capitalize }}</a>
         </li>
       {% endif %}
     {% endfor %}
