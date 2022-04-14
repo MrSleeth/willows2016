@@ -5,3 +5,4 @@ _site
 .box
 .DS_Store
 photos to add
+node_modules
