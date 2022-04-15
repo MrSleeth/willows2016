@@ -1,19 +1,15 @@
 ---
 title: Outdoors
 order: 4
-gallery: outdoors
 ---
 
-At Willows Montessori we benefit from an extensive and fully secure outdoor area, including two garden areas at the rear of the nursery.
+At Willows Montessori we benefit from an extensive and fully secure outdoor area, including two separate gardens and a small allotment at the rear of the nursery.
 
 We have a wide range of equipment and activities and offer children the same opportunities for learning outdoors as we do indoors.
 
-In our first garden we have a reading corner, complete with story-tellers chair, maths and mark-making areas, a construction area, music wall and a mud kitchen. This garden is on a slope and the children enjoy playing with cars and trucks and having races down the hill. We also keep hens which the children help to care for.
+The children from Squirrel Room and Foxes Den share a large outdoor space and children from Foxes Den benefit from free-flow access to the garden. The garden is grassy, with plants, flowers, trees and a willow den (which are great for hiding behind during hide and seek!) We have our pet bunnies, which the children help to care for, and a pond where frogs and newts live. There is a small toddler-sized climbing frame, footbridge, art easel and a willow den. At the bottom of the garden is out fire pit, complete with log seats. This is used during Forest School sessions with the pre-school children, but is also a great area for climbing and balancing for little ones when not in use. 
 
-We have an allotment section where we have various planters for the children to grow a variety of vegetables, complete with numerous compost bins and a greenhouse.
+An important aspect of Montessori practice is “care of the environment” and our allotment is a great resource for teaching the children about planting and growing all kinds of plants, flowers, vegetables and fruit. The allotment is tended to by the staff and children from Foxes Den and Badger Room and we have raised beds for growing lettuce, pumpkins, carrots, onions, garlic and other vegetables. We grow strawberries in pots and potatoes in sacks and also grow peppers, tomatoes and cucumbers in our child-sized greenhouse. 
+We have bins for composting and we use everything we grow in our garden, for example making soup with our vegetables and baking crumbles with our fruit.  
 
-Our second garden has a more natural feel to it and the majority of the area is covered with grass, which makes it an excellent area for the older children to run around and the younger pre-walkers to explore safely. In this garden we have a willow den which makes a wonderful house/workshop/fire station/spaceship during role play! We actively promote care of the environment and of animals and have a small pond, which is home to frogs and newts that the children enjoying observing, and a large rabbit enclosure, where the children can spend time with our fluffy bunnies, helping to feed and care for them. We also have a fire-pit which is used for Forest School sessions by the older children.
-
-The children from the [Foxes Den](/about-us/foxes-den/) and the [Badger Room](/about-us/badger-room/) benefit from free-flow access to our outdoor areas and the children from the [Hedgehog and Squirrel Rooms](/about-us/hedgehog-squirrel/) spend time outside as often as possible, whether out in the garden or on a walk around the village. All children throughout the nursery are encouraged to spend time outdoors, where we continue to follow the Montessori ethos; allowing children across all age ranges the opportunity to socialise and to learn from one another.
-
-We do not let the British weather intimidate us either; with a large quantity of waterproof clothing and wellies you will find the children (and staff) at Willows Montessori Nursery outdoors, whatever the weather!
+Badger Room children have free-flow access to their own outdoor space. There is a mud kitchen role-play area and a woodwork bench, where the children are given real hammers, nails, screws and screwdrivers to make their own creations using loose pieces of wood. The garden has a raised fairy garden (which is great for hide and seek!) and we have a raised area of the garden which is a great place to relax on a beanbag with a book. There is a water tray complete with water pump and lots of different equipment for water play. As well as opportunities for free-play, practitioners will invite children to take part in adult-led activities outdoors such as using a parachute, group games and science experiments.
