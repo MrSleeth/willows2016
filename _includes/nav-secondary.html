@@ -1,12 +1,14 @@
 <aside class="l-flexgrid__aside box-out">
-  <nav class="nav-secondary box-out__item">
-    <h2 class="nav-secondary__title">Also in this section...</h2>
+  <nav class="nav-secondary box-out__item" aria-labelledby="navId">
+    <h2 id="navId" class="nav-secondary__title">Also in this section...</h2>
     <ul class="nav-secondary__links">
       {% assign docs = site.[page.collection] | sort: order %}
     {% for doc in docs %}
-      {% unless doc.title == page.title %}
-        <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endunless %}
+      {% if doc.title == page.title %}
+        <li><a href="{{ doc.url }}" aria-current="page">{{ doc.title }}</a></li>
+      {% else %}
+      <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+      {% endif %}
     {% endfor %}
     </ul>
   </nav>
