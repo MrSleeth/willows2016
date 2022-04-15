@@ -1,13 +1,12 @@
 ---
-title: The Foxes Den
+title: Foxes Den
 order: 2
 gallery: foxes
 ---
 
-The Foxes Den is equipped for a maximum of twelve children per session, aged from 2 to around 3 years of age, and our staff to child ratio is 1:4.
+Our Foxes Den is for a maximum of 12 children per session, aged 2–3 years, and our staff to child ratio is 1:4.
 
-The Foxes Den is set in the grounds of our bottom garden, away from the main nursery building, and has a very natural feel to it. It is a wooden structure with its own kitchen, toilet area and verandah and the children benefit from free-flow access to the garden. We love to play outdoors in all weathers and our outdoor area is as well equipped as indoors. The Foxes Den has a range of early Montessori materials in the areas of literacy, maths, sensorial, cultural and activities of everyday living.
+The Foxes Den is set in the grounds of our bottom garden, away from our main nursery building, and has a natural feel to it. The building has its own small cloakroom and bathroom facilities, as well as a little kitchen as a separate section of the classroom. The front face of the building boasts a number of large windows, filling the classroom with natural light, and benefits from a small veranda which the children can access via double doors direct from the classroom.
 
-The layout of the Foxes Den is very cosy, with a cushioned reading corner, home corner for role play, construction area, cut and stick trolley and a number of tables for the children to work with materials independently.
-
-Adult led activities take place during the morning and afternoon sessions should children wish to take part.
+All furniture and equipment within the classroom are designed for use by two year olds. The children access a range of early Montessori materials in all areas of learning, as well as activities such as building blocks, cars, animals, loose parts and puzzles. The classroom contains a role-play area and a cosy area for enjoying songs and stories. 
+Adult-led activities take place during the morning and afternoon sessions should children wish to take part.
