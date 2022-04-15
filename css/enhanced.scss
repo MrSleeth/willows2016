@@ -174,7 +174,7 @@ blockquote {
   &::before,
   &::after {
     // position: absolute;
-    display: block;
+    display: none;
   }
 
   &::before {
