@@ -1,6 +1,7 @@
 ---
 title: Forest School
 layout: page
+gallery: forest
 ---
 
 {% include image.html filename="fs_tree" description="" %}

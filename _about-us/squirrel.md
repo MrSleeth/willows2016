@@ -1,6 +1,7 @@
 ---
 title: Squirrel Room
 order: 1
+gallery: squirrels
 ---
 
 Our Squirrel room is for a maximum of 18 children per session, aged from birth to 2 years, and our staff to child ratio is 1:3. Squirrel room is located on the first floor of our building and children are encouraged to walk up and down the stairs when they are able and are always supervised when doing so.
